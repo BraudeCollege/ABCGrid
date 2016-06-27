@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="2"
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/master/trunk/src/pku/cbi/abcgrid/master/service/HMMER"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   kind="dir"
+   name=""
+   committed-rev="1"/>
+<entry
+   revision="311"
+   checksum="6a880cbfad1fd118b8049aaf997d69f8"
+   last-author="suny"
+   text-time="2007-01-15T16:39:58.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   kind="file"
+   name="HMMERBase.java"
+   committed-rev="311"/>
+<entry
+   revision="326"
+   checksum="7d43ad8a641f6ab31921b6a218a6ca44"
+   last-author="suny"
+   text-time="2007-01-17T18:27:40.000000Z"
+   committed-date="2007-01-17T18:49:16.578000Z"
+   kind="file"
+   name="hmmpfam.java"
+   committed-rev="326"/>
+</wc-entries>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<!-- definition of elements -->
+
+<xsd:element name="ftp">
+	<xsd:complexType>
+    	<xsd:sequence> 
+			<xsd:element name="ip" type="xsd:string"/>           	
+        	<xsd:element name="port" type="xsd:positiveInteger"/>           	
+        	<xsd:element name="user" type="xsd:string"/>           	
+        	<xsd:element name="password" type="xsd:string"/>           	
+        	<xsd:element name="basepath" type="xsd:string"/>           	
+        	<xsd:element name="pasv" type="xsd:integer"/>           	
+    	</xsd:sequence> 
+    	<xsd:attribute name="name" type="xsd:string" use="required"/>	
+	</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="ftplist">
+	<xsd:complexType>
+    	<xsd:sequence> 
+			<xsd:element ref="ftp"/>
+    	</xsd:sequence> 
+	</xsd:complexType>
+</xsd:element>
+
+
+
+<xsd:element name="component">
+	<xsd:complexType>
+    	<xsd:sequence> 
+        	<xsd:element name="name" type="xsd:string"/>           	
+        	<xsd:element name="path" type="xsd:string"/>           			
+    	</xsd:sequence> 
+    	<xsd:attribute name="type" type="xsd:string" use="required"/>	
+    	<xsd:attribute name="ftp" type="xsd:string" use="required"/>	
+	</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="service">
+	<xsd:complexType>
+	    <xsd:sequence> 
+			<xsd:element ref="component"/>
+	    </xsd:sequence> 
+		<xsd:attribute name="name" type="xsd:string" use="required"/>	
+	</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="services">
+	<xsd:complexType>
+    	<xsd:sequence> 
+			<xsd:element ref="service"/>
+    	</xsd:sequence> 
+		<xsd:attribute name="os" type="xsd:string" use="required"/>	
+		<xsd:attribute name="arch" type="xsd:string" use="required"/>	
+	</xsd:complexType>
+</xsd:element>
+
+
+
+<xsd:element name="grid">
+  	<xsd:complexType>
+    	<xsd:sequence> 
+			<xsd:element ref="ftplist"/>
+			<xsd:element ref="services"/>
+    	</xsd:sequence> 
+  	</xsd:complexType>
+</xsd:element>
+
+
+</xsd:schema>

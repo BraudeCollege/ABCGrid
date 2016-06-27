@@ -1,0 +1,23 @@
+#####################################################
+#               INSTALL                             #
+#####################################################
+See file INSTALL for details.
+
+#####################################################
+#               RUN                                 #
+#####################################################
+>cd C:\worker\dist\bin
+>java -jar worker.jar -h 162.105.250.180 -v
+#This command will connect to Master which has IP=162.105.250.180,port=4170(default) in verbose mode
+
+>java -jar worker.jar -h 162.105.250.180 -p 1999
+#This command will connect to Master which has IP=162.105.250.180,port=1999
+
+
+#####################################################
+#               PARAMETERS                          #
+#####################################################
+-h [IP]     The IP of master node to be connected.
+-p [PORT]   The port of master node to be connected.
+-v          Set verbose mode. More information will be printed.
+-a          Use all CPUs in this machine. By defauly, only 1 CPU is used.

@@ -1,0 +1,121 @@
+#####################################################
+#               INSTALL                             #
+#####################################################
+See file INSTALL for details.
+
+#####################################################
+#               CONFIGURATION                       #
+#####################################################
+The configuration is define by a file: conf/user.conf
+
+#file: conf/user.conf
+#user=demo
+#password=hello,world
+#master=162.105.250.180
+#masterport=4171
+#ocalport=4172
+
+Ask ABCGrid manager to get your these information. 
+
+#####################################################
+#               RUN                                 #
+#####################################################
+
+>cd /home/abcuser/bin
+>java -jar user.jar [commands]
+
+
+#####################################################
+#               COMMANDS                            #
+#####################################################
+Commands that are supported by ABCUser.
+
+1. Run
+
+DESCRIPTION
+    Run a job. Before run a job, a User must put all input files in his home (working directory)
+
+SYNTAX
+    r command [params]
+
+EXAMPLE
+    >java -jar user.jar r blastall 每p blastp 每i pdb_100.fasta 每d nr 每o pdb_100.fasta.blastp 每m 9
+    will run a blastp search again nr database using input sequence file pdb_100.fasta.
+    >java -jar user.jar r CE 每 pdbdemo1.ent A pdbdemo2.ent A scratch
+    will run a CE structure alignment between chain A of pdbdemo1.ent and chain B of pdbdemo2.ent.
+
+    Output and error redirection are also supported:
+    >java -jar user.jar r CE 每 pdbdemo1.ent A pdbdemo2.ent A scratch 1>abc
+    will redirect output to file ※abc§
+    >java -jar user.jar r hmmpfam Pfam_ls input.seq >abc
+    will redirect output and error to file ※abc§
+    >java -jar user.jar r hmmpfam Pfam_ls input.seq 1>abc 2>def
+    will redirect output to file ※abc§ and error to file ※def§. By default, there is a user ※demo§ with some files(You can find a ※demo§ directory under the §user§ directory in Master) include some FASTA files and two PDB files. You can use these files to test the working environment. Besides FASTA, some other popular sequence file formats include EMBL, Genbank, SwissProt and Pfam are also supported as the input files.
+
+2. Service
+
+DESCRIPTION
+    Show supported services.
+
+SYNTAX
+    s
+
+EXAMPLE
+    >java -jar user.jar s
+    show all supported services.
+
+3. Job
+
+DESCRIPTION
+    Show the information of recent jobs.
+
+SYNTAX
+    j    [jobid]
+
+EXAMPLE
+    >java -jar user.jar j
+    print information of all jobs(which submitted by current user)
+    >java -jar user.jar j 1
+    print information of job with id=1.
+    >java -jar user.jar j 1 2 5 7
+    print information of jobs with id=1,2,5 and 7.
+
+4. Worker
+
+DESCRIPTION
+    Show basic information of connected worker nodes including machine name, IP, operating system, architecture, current status(busy, idle, etc.)
+
+SYNTAX
+    w
+
+EXAMPLE
+    >java -jar user.jar w
+    print information of all connected worker nodes.
+
+5. Kill
+
+DESCRIPTION
+    Kill a job. A User can only kill his jobs.
+    If a User is administrator (which group is ※admin§), he can kill any jobs.
+
+SYNTAX
+    k jod_id
+
+EXAMPLE
+    >java -jar user.jar k 1
+    kill the job which has id = 1
+
+    >>java -jar user.jar k 0
+    kill all jobs submitted by current user. value 0 indicate all jobs.
+
+7. Help
+
+DESCRIPTION
+    Show help message.
+
+SYNTAX
+    h
+
+EXAMPLE
+    >java -jar user.jar h
+    

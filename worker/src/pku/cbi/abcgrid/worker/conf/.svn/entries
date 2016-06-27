@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="91"
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/worker/trunk/src/pku/cbi/abcgrid/worker/conf"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-12-30T01:28:07.839050Z"
+   kind="dir"
+   name=""
+   committed-rev="86"/>
+<entry
+   checksum="de4b5d2b674e721ae71f262fc6a4a53f"
+   revision="129"
+   last-author="suny"
+   text-time="2007-01-09T06:20:02.000000Z"
+   committed-date="2007-01-09T06:50:41.146000Z"
+   kind="file"
+   name="Component.java"
+   committed-rev="129"/>
+<entry
+   revision="323"
+   checksum="5e094ba10ace23f7218eb5639012b115"
+   last-author="suny"
+   text-time="2007-01-17T18:07:02.000000Z"
+   committed-date="2007-01-17T18:27:49.584000Z"
+   kind="file"
+   name="Config.java"
+   committed-rev="323"/>
+<entry
+   checksum="67df9b29af30a10597ca8871aec31aae"
+   revision="129"
+   last-author="suny"
+   text-time="2007-01-09T06:22:16.000000Z"
+   committed-date="2007-01-09T06:50:41.146000Z"
+   kind="file"
+   name="Entry.java"
+   committed-rev="129"/>
+<entry
+   revision="239"
+   deleted="true"
+   kind="file"
+   name="Env.java"/>
+<entry
+   checksum="f25daf5bb8f2fb7135825d4bd4ad033c"
+   revision="129"
+   last-author="suny"
+   text-time="2007-01-09T06:22:16.000000Z"
+   committed-date="2007-01-09T06:50:41.146000Z"
+   kind="file"
+   name="MasterAddress.java"
+   committed-rev="129"/>
+<entry
+   checksum="5ff57690e97c15a46c04690c9a13a0a4"
+   revision="239"
+   last-author="suny"
+   text-time="2007-01-13T13:52:42.000000Z"
+   committed-date="2007-01-13T14:13:50.397000Z"
+   kind="file"
+   name="Service.java"
+   committed-rev="239"/>
+<entry
+   checksum="476c219011c0a5772b454c80f058e0af"
+   revision="129"
+   last-author="suny"
+   text-time="2007-01-09T06:22:16.000000Z"
+   committed-date="2007-01-09T06:50:41.146000Z"
+   kind="file"
+   name="Services.java"
+   committed-rev="129"/>
+</wc-entries>

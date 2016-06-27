@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="master" default="all" basedir=".">
+
+    <!-- set global properties for this build -->
+    <property name="src.dir" value="${basedir}/src"/>
+    <property name="lib.dir" value="${basedir}/lib"/>
+    <property name="misc.dir" value="${basedir}/misc"/>
+    <property name="user.demo.dir" value="${basedir}/user/demo"/>
+    <property name="user.admin.dir" value="${basedir}/user/admin"/>
+
+    <property name="build.dir" value="${basedir}/dist"/>
+    <property name="build.bin.dir"     value="${build.dir}/bin"/>
+    <property name="build.conf.dir"     value="${build.dir}/conf"/>
+    <property name="build.log.dir"     value="${build.dir}/log"/>
+    <property name="build.doc.dir"     value="${build.dir}/doc"/>
+    <property name="build.user.dir"     value="${build.dir}/user"/>
+    <property name="build.user.demo.dir"     value="${build.user.dir}/demo"/>
+    <property name="build.user.admin.dir"     value="${build.user.dir}/admin"/>
+    <property name="build.classes.dir"     value="${build.dir}/classes"/>
+    <property name="main-class"  value="pku.cbi.abcgrid.master.GridMain"/>
+    <property name="version" value="0.1"/>
+
+
+    <!--define classpath-->
+    <path id="classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+    </path>
+
+    <target name="init">
+        <!-- Create the time stamp -->
+        <tstamp/>
+		<!--delete old and existing directory-->
+        <delete dir="${build.dir}" includeEmptyDirs="true"/>
+		<!--create directory-->
+        <mkdir dir="${build.bin.dir}"/>
+        <mkdir dir="${build.conf.dir}"/>
+        <mkdir dir="${build.log.dir}"/>
+        <mkdir dir="${build.doc.dir}"/>
+        <mkdir dir="${build.user.dir}/"/>
+        <mkdir dir="${build.user.demo.dir}/"/>
+        <mkdir dir="${build.user.admin.dir}/"/>
+        <mkdir dir="${build.classes.dir}/"/>
+    </target>
+
+    <target name="copy">
+        
+        <copy toDir="${build.user.demo.dir}/">
+            <fileset dir="${user.demo.dir}">
+                <include name="*"/>
+            </fileset>
+        </copy>
+
+        <copy toDir="${build.user.admin.dir}/">
+            <fileset dir="${user.admin.dir}">
+                <include name="*"/>
+            </fileset>
+        </copy>
+
+
+        <copy file="${basedir}/README"
+            tofile="${build.dir}/README"/>
+
+        <copy file="${basedir}/INSTALL"
+            tofile="${build.dir}/INSTALL"/>
+
+        <copy file="${basedir}/CONFIGURATION"
+            tofile="${build.dir}/CONFIGURATION"/>
+
+        <copy file="${misc.dir}/master.conf"
+            tofile="${build.conf.dir}/master.conf"/>
+
+        <copy file="${misc.dir}/master.xsd"
+            tofile="${build.conf.dir}/master.xsd"/>
+            
+    	<copy file="${misc.dir}/update.conf"
+            tofile="${build.conf.dir}/update.conf"/>
+
+    	<copy file="${misc.dir}/update.xsd"
+            tofile="${build.conf.dir}/update.xsd"/>
+            
+    	<copy file="${misc.dir}/master.log"
+            tofile="${build.log.dir}/master.log"/>
+
+        <copy toDir="${build.bin.dir}/">
+            <fileset dir="${lib.dir}">
+                <include name="*.jar"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="compile">
+        <javac
+                srcdir="${src.dir}"
+                destdir="${build.classes.dir}"
+                classpathref="classpath"
+                source="1.5"/>
+    </target>
+
+    <target name="make" depends="compile">
+        <jar destfile="${build.bin.dir}/${ant.project.name}.jar"
+             basedir="${build.classes.dir}"
+             manifest="${misc.dir}/master.manifest"/>
+    </target>
+
+    <target name="run" depends="make">
+        <java fork="true" classname="${main-class}">
+            <classpath>
+                <path refid="classpath"/>
+                <path location="${build.bin.dir}/${ant.project.name}.jar"/>
+            </classpath>
+        </java>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.classes.dir}" includeEmptyDirs="true"/>
+    </target>
+
+    <target name="all" depends="init,copy,compile,make,clean"/>
+
+</project>

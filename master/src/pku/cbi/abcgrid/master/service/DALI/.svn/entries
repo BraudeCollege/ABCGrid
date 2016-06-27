@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="2"
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/master/trunk/src/pku/cbi/abcgrid/master/service/DALI"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   kind="dir"
+   name=""
+   committed-rev="1"/>
+<entry
+   revision="311"
+   checksum="cc472dfd6bb8e93e92e1e2cbe720d9f9"
+   last-author="suny"
+   text-time="2007-01-15T16:39:58.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   kind="file"
+   name="DaliLite.java"
+   committed-rev="311"/>
+</wc-entries>

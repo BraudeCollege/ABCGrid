@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   revision="2"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/master/trunk/lib"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name=""
+   kind="dir"
+   committed-rev="1"/>
+<entry
+   checksum="480cc0399ecf9caccde65b1ff25d3e1b"
+   last-author="suny"
+   prop-time="2006-10-13T16:10:32.000000Z"
+   text-time="2006-10-13T15:59:14.000000Z"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name="biojava-1.4.jar"
+   kind="file"
+   committed-rev="1"/>
+<entry
+   checksum="332e0b06b485645802067c92f1055e37"
+   last-author="suny"
+   prop-time="2006-10-13T16:10:32.000000Z"
+   text-time="2006-10-13T15:59:14.000000Z"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name="bytecode.jar"
+   kind="file"
+   committed-rev="1"/>
+<entry
+   checksum="0f18acf5fa857f9959675e14d901a7ce"
+   last-author="suny"
+   prop-time="2006-10-13T16:10:32.000000Z"
+   text-time="2006-10-13T15:59:14.000000Z"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name="commons-beanutils.jar"
+   kind="file"
+   committed-rev="1"/>
+<entry
+   checksum="f6feeb3b3d95f7d09180fd71e96cead4"
+   revision="98"
+   last-author="suny"
+   prop-time="2007-01-02T12:33:40.000000Z"
+   text-time="2002-11-05T16:10:22.000000Z"
+   committed-date="2007-01-02T12:52:50.863000Z"
+   name="commons-cli-1.0.jar"
+   kind="file"
+   committed-rev="98"/>
+<entry
+   checksum="67ec4399342d5da2fd3b0288698664ca"
+   last-author="suny"
+   prop-time="2006-10-13T16:10:32.000000Z"
+   text-time="2006-10-13T15:59:14.000000Z"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name="commons-digester.jar"
+   kind="file"
+   committed-rev="1"/>
+<entry
+   checksum="b0bf5f906af5a936992514ed087f1fa2"
+   last-author="suny"
+   prop-time="2006-10-13T16:10:32.000000Z"
+   text-time="2006-10-13T15:59:14.000000Z"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name="commons-io-1.2.jar"
+   kind="file"
+   committed-rev="1"/>
+<entry
+   checksum="6b62417e77b000a87de66ee3935edbf5"
+   last-author="suny"
+   prop-time="2006-10-13T16:10:32.000000Z"
+   text-time="2006-10-13T15:59:14.000000Z"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name="commons-logging-1.1.jar"
+   kind="file"
+   committed-rev="1"/>
+<entry
+   checksum="3aa45be8fd3f5ae8c69b73959a7fa57c"
+   last-author="suny"
+   prop-time="2006-10-13T16:10:32.000000Z"
+   text-time="2006-10-13T15:59:14.000000Z"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name="junit-4.1.jar"
+   kind="file"
+   committed-rev="1"/>
+<entry
+   revision="80"
+   deleted="true"
+   kind="file"
+   name="log4j-1.2.8.jar"/>
+</wc-entries>

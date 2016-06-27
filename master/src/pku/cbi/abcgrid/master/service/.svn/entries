@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="2"
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/master/trunk/src/pku/cbi/abcgrid/master/service"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   kind="dir"
+   name=""
+   committed-rev="1"/>
+<entry
+   checksum="785fb70eeb7dfb761fc2d4e013db8954"
+   text-time="2007-01-15T18:39:04.000000Z"
+   kind="file"
+   revision="311"
+   last-author="suny"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   name="AbstractApp.java"
+   committed-rev="311"/>
+<entry
+   revision="311"
+   deleted="true"
+   kind="file"
+   name="AbstractService.java"/>
+<entry
+   checksum="4582f9389704b7f3394a1f37b6b38b4b"
+   text-time="2007-01-15T16:39:58.000000Z"
+   kind="file"
+   revision="311"
+   last-author="suny"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   name="App.java"
+   committed-rev="311"/>
+<entry
+   name="CE"
+   kind="dir"/>
+<entry
+   name="DALI"
+   kind="dir"/>
+<entry
+   kind="dir"
+   name="HMMER"/>
+<entry
+   kind="dir"
+   name="NCBI_BLAST"/>
+<entry
+   revision="311"
+   deleted="true"
+   kind="file"
+   name="Service.java"/>
+<entry
+   revision="36"
+   deleted="true"
+   kind="file"
+   name="ServiceBase.java"/>
+</wc-entries>

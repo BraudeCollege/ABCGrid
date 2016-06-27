@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   revision="2"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/master/trunk/src/pku/cbi/abcgrid/master/service/NCBI_BLAST"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name=""
+   kind="dir"
+   committed-rev="1"/>
+<entry
+   checksum="4eeecc25784c388d9abb2611e172ef5d"
+   revision="311"
+   last-author="suny"
+   text-time="2007-01-15T08:14:38.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   name="BlastallBase.java"
+   kind="file"
+   committed-rev="311"/>
+<entry
+   checksum="4d571fd1686b36f49768e038d6973161"
+   revision="311"
+   last-author="suny"
+   text-time="2007-01-15T16:39:58.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   name="NCBI_BLASTBase.java"
+   kind="file"
+   committed-rev="311"/>
+<entry
+   checksum="55fe63074c2a2665deef269a3fde9355"
+   revision="253"
+   last-author="suny"
+   text-time="2007-01-13T17:26:36.000000Z"
+   committed-date="2007-01-13T17:47:52.521000Z"
+   name="bl2seq.java"
+   kind="file"
+   committed-rev="253"/>
+<entry
+   revision="128"
+   checksum="031c570529ff1ec342129e5ec4b3efce"
+   last-author="suny"
+   text-time="2007-01-09T05:55:58.000000Z"
+   committed-date="2007-01-09T06:49:31.010000Z"
+   name="blastall.java"
+   kind="file"
+   committed-rev="128"/>
+<entry
+   revision="128"
+   checksum="4041033a4b408735978a249e10e1000e"
+   last-author="suny"
+   text-time="2007-01-09T05:56:12.000000Z"
+   committed-date="2007-01-09T06:49:31.010000Z"
+   name="megablast.java"
+   kind="file"
+   committed-rev="128"/>
+<entry
+   revision="128"
+   checksum="1b15cbfbd2e5f45ee8512ac08abb369a"
+   last-author="suny"
+   text-time="2007-01-09T05:56:20.000000Z"
+   committed-date="2007-01-09T06:49:31.010000Z"
+   name="rpsblast.java"
+   kind="file"
+   committed-rev="128"/>
+</wc-entries>

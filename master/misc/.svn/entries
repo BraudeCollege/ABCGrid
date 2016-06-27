@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   revision="2"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/master/trunk/misc"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name=""
+   kind="dir"
+   committed-rev="1"/>
+<entry
+   revision="81"
+   deleted="true"
+   name="log4j.dtd"
+   kind="file"/>
+<entry
+   revision="81"
+   deleted="true"
+   name="log4j.xml"
+   kind="file"/>
+<entry
+   checksum="7c188bba5a995f9a8268240be8c77e53"
+   revision="88"
+   last-author="suny"
+   text-time="2006-12-30T16:21:00.000000Z"
+   committed-date="2006-12-30T16:39:52.862000Z"
+   name="master.conf"
+   kind="file"
+   committed-rev="88"/>
+<entry
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="suny"
+   text-time="2006-10-13T15:59:14.000000Z"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name="master.log"
+   kind="file"
+   committed-rev="1"/>
+<entry
+   revision="47"
+   checksum="4281266fbe5d2b19b7aa4cfe409977de"
+   last-author="suny"
+   text-time="2006-10-24T21:48:08.000000Z"
+   committed-date="2006-10-24T22:00:03.278000Z"
+   name="master.manifest"
+   kind="file"
+   committed-rev="47"/>
+<entry
+   checksum="164557b56a9c9da26480ab2bfaf744a6"
+   revision="80"
+   last-author="suny"
+   text-time="2006-11-25T15:53:12.000000Z"
+   committed-date="2006-12-21T20:16:04.691000Z"
+   name="master.xsd"
+   kind="file"
+   committed-rev="80"/>
+<entry
+   revision="81"
+   deleted="true"
+   name="readme.pdf"
+   kind="file"/>
+<entry
+   checksum="ed02c56dca29fde9c9c0e083c2a4bd0a"
+   revision="246"
+   last-author="suny"
+   text-time="2007-01-13T16:27:20.000000Z"
+   committed-date="2007-01-13T16:48:33.806000Z"
+   name="update.conf"
+   kind="file"
+   committed-rev="246"/>
+<entry
+   revision="105"
+   checksum="2d526ca7a95a070616dab402f8957e58"
+   schedule="delete"
+   last-author="suny"
+   text-time="2007-01-08T05:34:34.000000Z"
+   committed-date="2007-01-08T05:57:10.994000Z"
+   name="update.conf.bak"
+   kind="file"
+   committed-rev="105"/>
+<entry
+   checksum="2d526ca7a95a070616dab402f8957e58"
+   revision="106"
+   last-author="suny"
+   text-time="2007-01-08T05:34:34.000000Z"
+   committed-date="2007-01-08T06:01:10.566000Z"
+   kind="file"
+   name="update.conf.demo"
+   committed-rev="106"/>
+<entry
+   checksum="61cd538875db7b38b4a4b03a9ab0f4bb"
+   last-author="suny"
+   text-time="2006-10-13T15:59:14.000000Z"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name="update.xsd"
+   kind="file"
+   committed-rev="1"/>
+</wc-entries>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   revision="2"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/master/trunk/src/pku/cbi/abcgrid/master"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name=""
+   kind="dir"
+   committed-rev="1"/>
+<entry
+   checksum="0d442e97ab53d904c7b473d882b9e990"
+   revision="274"
+   last-author="suny"
+   text-time="2007-01-13T18:42:12.000000Z"
+   committed-date="2007-01-13T19:02:28.247000Z"
+   name="Command.java"
+   kind="file"
+   committed-rev="274"/>
+<entry
+   checksum="b58695f1f23d7e4abf8e2710c345989f"
+   revision="282"
+   last-author="suny"
+   text-time="2007-01-15T06:21:40.000000Z"
+   committed-date="2007-01-15T08:04:45.409000Z"
+   name="CommandHandler.java"
+   kind="file"
+   committed-rev="282"/>
+<entry
+   checksum="50df240538293b20fe1211490ef0515f"
+   revision="311"
+   last-author="suny"
+   text-time="2007-01-15T21:11:54.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   name="GridMain.java"
+   kind="file"
+   committed-rev="311"/>
+<entry
+   checksum="ca0f5bdabae55b74d2e810ab751b7b24"
+   revision="168"
+   last-author="suny"
+   text-time="2007-01-10T23:57:44.000000Z"
+   committed-date="2007-01-11T00:28:33.025000Z"
+   name="HelpCommand.java"
+   kind="file"
+   committed-rev="168"/>
+<entry
+   checksum="07ffcc477bb20ab68c42ebffc7e47fa8"
+   revision="311"
+   last-author="suny"
+   text-time="2007-01-15T16:39:58.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   name="Job.java"
+   kind="file"
+   committed-rev="311"/>
+<entry
+   revision="311"
+   deleted="true"
+   kind="file"
+   name="JobAction.java"/>
+<entry
+   revision="311"
+   checksum="b54d66f2905ea7fa8a5b1cc137f819d3"
+   last-author="suny"
+   text-time="2007-01-15T21:01:48.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   name="JobCollector.java"
+   kind="file"
+   committed-rev="311"/>
+<entry
+   checksum="7eacb17719427588320d0f220c26503e"
+   revision="311"
+   last-author="suny"
+   text-time="2007-01-15T18:19:24.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   name="JobCommand.java"
+   kind="file"
+   committed-rev="311"/>
+<entry
+   checksum="190c3f936a90034d8eb032c2d0d1d81f"
+   revision="311"
+   last-author="suny"
+   text-time="2007-01-15T18:30:46.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   name="JobInfo.java"
+   kind="file"
+   committed-rev="311"/>
+<entry
+   revision="311"
+   checksum="8464d687f6daa3aeed1363139d32f9a7"
+   last-author="suny"
+   text-time="2007-01-15T19:09:22.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   name="JobMonitor.java"
+   kind="file"
+   committed-rev="311"/>
+<entry
+   revision="311"
+   checksum="bd4d341c5b42a1312dcbfab1dba13930"
+   last-author="suny"
+   text-time="2007-01-15T16:39:58.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   name="JobReaders.java"
+   kind="file"
+   committed-rev="311"/>
+<entry
+   checksum="1f776de2afe807c1097d457999031889"
+   revision="163"
+   last-author="suny"
+   text-time="2007-01-10T22:18:08.000000Z"
+   committed-date="2007-01-10T22:38:11.902000Z"
+   name="JobResult.java"
+   kind="file"
+   committed-rev="163"/>
+<entry
+   checksum="0973e98bb160e8aa9ec5c293e8d5d16b"
+   revision="326"
+   last-author="suny"
+   text-time="2007-01-17T17:59:20.000000Z"
+   committed-date="2007-01-17T18:49:16.578000Z"
+   name="JobScheduler.java"
+   kind="file"
+   committed-rev="326"/>
+<entry
+   checksum="bbf72974ccaa50cf2b3d1001ca377f5c"
+   revision="128"
+   last-author="suny"
+   text-time="2007-01-09T05:27:36.000000Z"
+   committed-date="2007-01-09T06:49:31.010000Z"
+   name="JobState.java"
+   kind="file"
+   committed-rev="128"/>
+<entry
+   checksum="19963797aad9cfc909aec136e945cf2d"
+   revision="311"
+   last-author="suny"
+   text-time="2007-01-15T18:21:08.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   name="KillCommand.java"
+   kind="file"
+   committed-rev="311"/>
+<entry
+   checksum="bc9e97c0e695cd20c496d5a75a6e91b0"
+   revision="192"
+   last-author="suny"
+   text-time="2007-01-11T02:12:30.000000Z"
+   committed-date="2007-01-11T02:32:28.545000Z"
+   name="Master.java"
+   kind="file"
+   committed-rev="192"/>
+<entry
+   checksum="e5f56bfad95bc3631890711a1bbc216f"
+   revision="311"
+   last-author="suny"
+   text-time="2007-01-15T16:39:58.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   name="MasterImpl.java"
+   kind="file"
+   committed-rev="311"/>
+<entry
+   checksum="e24981e66d9f8c47467de9126eaf549a"
+   revision="128"
+   last-author="suny"
+   text-time="2007-01-09T06:09:52.000000Z"
+   committed-date="2007-01-09T06:49:31.010000Z"
+   name="Request.java"
+   kind="file"
+   committed-rev="128"/>
+<entry
+   checksum="a526a008e16292b5f057f831beee82dd"
+   revision="128"
+   last-author="suny"
+   text-time="2007-01-09T05:54:12.000000Z"
+   committed-date="2007-01-09T06:49:31.010000Z"
+   kind="file"
+   name="RequestServer.java"
+   committed-rev="128"/>
+<entry
+   checksum="5fdabd45eade81b79a67599a1238dde8"
+   revision="311"
+   last-author="suny"
+   text-time="2007-01-15T21:11:54.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   name="RunCommand.java"
+   kind="file"
+   committed-rev="311"/>
+<entry
+   checksum="72e9d139bb6606f0614fc9428f215e08"
+   revision="168"
+   last-author="suny"
+   text-time="2007-01-11T00:08:32.000000Z"
+   committed-date="2007-01-11T00:28:33.025000Z"
+   name="ServiceCommand.java"
+   kind="file"
+   committed-rev="168"/>
+<entry
+   checksum="61245f867e9cc795995e00feeea70314"
+   revision="128"
+   last-author="suny"
+   text-time="2007-01-09T06:23:46.000000Z"
+   committed-date="2007-01-09T06:49:31.010000Z"
+   name="Task.java"
+   kind="file"
+   committed-rev="128"/>
+<entry
+   checksum="fc96f2467cf7183cfe8361b57b5ddc68"
+   revision="155"
+   last-author="suny"
+   text-time="2007-01-09T23:47:26.000000Z"
+   committed-date="2007-01-10T01:08:29.520000Z"
+   name="TaskInfo.java"
+   kind="file"
+   committed-rev="155"/>
+<entry
+   revision="128"
+   checksum="a75dbadd5c0e3310703c8b7b0904b3c2"
+   last-author="suny"
+   text-time="2007-01-09T06:23:58.000000Z"
+   committed-date="2007-01-09T06:49:31.010000Z"
+   kind="file"
+   name="TaskInput.java"
+   committed-rev="128"/>
+<entry
+   checksum="1c7799f8c6644c0f2c4d083767efa574"
+   revision="155"
+   last-author="suny"
+   text-time="2007-01-10T00:10:58.000000Z"
+   committed-date="2007-01-10T01:08:29.520000Z"
+   name="TaskResult.java"
+   kind="file"
+   committed-rev="155"/>
+<entry
+   checksum="5372c20922378cfbee4e6946e06ee43a"
+   revision="155"
+   last-author="suny"
+   text-time="2007-01-09T23:47:20.000000Z"
+   committed-date="2007-01-10T01:08:29.520000Z"
+   name="TaskState.java"
+   kind="file"
+   committed-rev="155"/>
+<entry
+   revision="168"
+   checksum="68858eb6172daf4f0c940ae114ab602b"
+   last-author="suny"
+   text-time="2007-01-11T00:04:38.000000Z"
+   committed-date="2007-01-11T00:28:33.025000Z"
+   name="UpdateCommand.java"
+   kind="file"
+   committed-rev="168"/>
+<entry
+   checksum="57f65a2b04590debdaa15251efd5ee0b"
+   revision="242"
+   last-author="suny"
+   text-time="2007-01-13T14:09:16.000000Z"
+   committed-date="2007-01-13T14:37:50.493000Z"
+   name="Util.java"
+   kind="file"
+   committed-rev="242"/>
+<entry
+   revision="192"
+   checksum="76d384874d7dbf6c6757718eeee4ce2c"
+   last-author="suny"
+   text-time="2007-01-11T02:08:24.000000Z"
+   committed-date="2007-01-11T02:32:28.545000Z"
+   name="WorkerCommand.java"
+   kind="file"
+   committed-rev="192"/>
+<entry
+   checksum="24202cfc95b38ae58a0ead2ff209c993"
+   revision="325"
+   last-author="suny"
+   text-time="2007-01-17T18:09:16.000000Z"
+   committed-date="2007-01-17T18:30:02.593000Z"
+   name="WorkerInfo.java"
+   kind="file"
+   committed-rev="325"/>
+<entry
+   revision="163"
+   checksum="581bdda2120901c3f4697848b323d3d2"
+   last-author="suny"
+   text-time="2007-01-10T22:05:54.000000Z"
+   committed-date="2007-01-10T22:38:11.902000Z"
+   name="WorkerManager.java"
+   kind="file"
+   committed-rev="163"/>
+<entry
+   name="conf"
+   kind="dir"/>
+<entry
+   name="fragment"
+   kind="dir"/>
+<entry
+   kind="dir"
+   name="service"/>
+<entry
+   kind="dir"
+   name="user"/>
+</wc-entries>

@@ -1,0 +1,220 @@
+<?xml version="1.0" ?>
+<grid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="update.xsd">
+    <!--The ftp site list which the Worker should download data from-->
+    <ftplist>
+        <!--FTP server for NCBI BLAST executable-->
+    	<ftp name="ncbi_blast_exec">
+	    	<ip>ftp.ncbi.nlm.nih.gov</ip>
+    		<port>21</port>
+	    	<user>anonymous</user>
+    		<password>anonymous</password>
+    		<basepath>blast/executables/LATEST/</basepath>
+    		<pasv>1</pasv>
+    	</ftp>
+        <!--FTP server for NCBI BLAST database (pre-formated with formatdb)-->
+    	<ftp name="ncbi_blast_db">
+	    	<ip>ftp.ncbi.nlm.nih.gov</ip>
+    		<port>21</port>
+	    	<user>anonymous</user>
+    		<password>anonymous</password>
+    		<basepath>blast/db/</basepath>
+    		<pasv>1</pasv>
+    	</ftp>
+
+    	<!--Local FTP server for NCBI BLAST executable-->
+    	<ftp name="fir_blast_exec">
+	    	<ip>202.38.125.2</ip>
+    		<port>21</port>
+	    	<user>gblast</user>
+    		<password>gblast</password>
+    		<basepath>blast/executable/</basepath>
+    		<pasv>0</pasv>
+    	</ftp>
+
+    	<!--Local FTP server for NCBI BLAST executable-->
+    	<ftp name="fir_blast_db">
+	    	<ip>202.38.125.2</ip>
+    		<port>21</port>
+	    	<user>gblast</user>
+    		<password>gblast</password>
+    		<basepath>blast/db/</basepath>
+    		<pasv>0</pasv>
+    	</ftp>
+
+    	<!--Local FTP server for CE (protein structure alignment)-->
+    	<ftp name="fir_ce">
+	    	<ip>202.38.125.2</ip>
+    		<port>21</port>
+	    	<user>gblast</user>
+    		<password>gblast</password>
+    		<basepath>CE/</basepath>
+    		<pasv>0</pasv>
+    	</ftp>
+
+    	<!--Local FTP server for Hmmpfam executable-->
+    	<ftp name="fir_hmmer_exec">
+	    	<ip>202.38.125.2</ip>
+    		<port>21</port>
+	    	<user>gblast</user>
+    		<password>gblast</password>
+    		<basepath>hmmer/executable/</basepath>
+    		<pasv>0</pasv>
+    	</ftp>
+
+    	<!--Local FTP server for Hmmpfam database-->
+    	<ftp name="fir_hmmer_db">
+	    	<ip>202.38.125.2</ip>
+    		<port>21</port>
+	    	<user>gblast</user>
+    		<password>gblast</password>
+    		<basepath>hmmer/db/</basepath>
+    		<pasv>0</pasv>
+    	</ftp>
+	</ftplist>
+    
+    <!--for worker node which is a x86 machines running windows-->
+    <services os="Windows" arch="x86">
+    	<service name="NCBI_BLAST">
+    		<component type="executable" ftp="fir_blast_exec">
+    			<name>blast-2.2.14-ia32-win32.exe</name>
+        		<path>bin/</path>
+    		</component>
+    		<component type="data" ftp="fir_blast_db">
+    			<name>sprot-hba.tar.gz</name>
+        		<path></path>
+    		</component>
+    		<component type="data" ftp="fir_blast_db">
+    			<name>pataa.tar.gz</name>
+        		<path></path>
+    		</component>
+        	<!--
+    		<component type="data" ftp="fir_blast_db">
+    			<name>nr.tar.gz</name>
+        		<path></path>
+    		</component>
+    		-->
+    	</service>
+    </services>
+
+    <!--for x86 machines running linux-->
+    <services os="Linux" arch="i386" >
+    	<service name="NCBI_BLAST">
+    		<component type="executable" ftp="fir_blast_exec">
+    			<name>blast-2.2.14-ia32-linux.tar.gz</name>
+        		<path>blast-2.2.14/bin</path>
+    		</component>
+    		<component type="data" ftp="fir_blast_db">
+    			<name>sprot-hba.tar.gz</name>
+        		<path></path>
+    		</component>
+    		<component type="data" ftp="fir_blast_db">
+    			<name>pataa.tar.gz</name>
+        		<path></path>
+    		</component>
+        	<!--
+    		<component type="data" ftp="fir_blast_db">
+    			<name>nr.tar.gz</name>
+        		<path></path>
+    		</component>
+	        -->
+        </service>
+    	<service name="CE">
+    		<component type="executable" ftp="fir_ce">
+    			<name>ce_linux.tar.gz</name>
+        		<path>ce_distr</path>
+    		</component>
+    	</service>
+    	<service name="HMMER">
+    		<component type="executable" ftp="fir_hmmer_exec">
+    			<name>hmmer-2.3.2-x86-linux.tar.gz</name>
+        		<path>bin</path>
+    		</component>
+    		<component type="data" ftp="fir_hmmer_db">
+    			<name>Pfam_ls.gz</name>
+        		<path></path>
+    		</component>
+    	</service>
+    </services>
+    <!--for x64 machines running linux-->
+    <services os="Linux" arch="amd64" >
+    	<service name="NCBI_BLAST">
+    		<component type="executable" ftp="fir_blast_exec">
+    			<name>blast-2.2.14-x64-linux.tar.gz</name>
+        		<path>blast-2.2.14/bin</path>
+    		</component>
+    		<component type="data" ftp="fir_blast_db">
+    			<name>sprot-hba.tar.gz</name>
+        		<path></path>
+    		</component>
+    		<component type="data" ftp="fir_blast_db">
+    			<name>pataa.tar.gz</name>
+        		<path></path>
+    		</component>
+    		<!--
+    		<component type="data" ftp="fir_blast_db">
+    			<name>nr.tar.gz</name>
+        		<path></path>
+    		</component>
+    		-->
+    	</service>
+    	<service name="HMMER">
+    		<component type="executable" ftp="fir_hmmer_exec">
+    			<name>hmmer-2.3.2-amd64-linux.tar.gz</name>
+        		<path>bin</path>
+    		</component>
+    		<component type="data" ftp="fir_hmmer_db">
+    			<name>Pfam_ls.gz</name>
+        		<path></path>
+    		</component>
+    	</service>
+    </services>
+
+    <!--for intel machines running Mac OS X-->
+    <services os="Mac" arch="i386" >
+    	<service name="NCBI_BLAST">
+    		<component type="executable" ftp="fir_blast_exec">
+    			<name>blast-2.2.14-universal-macosx.tar.gz</name>
+        		<path>blast-2.2.14/bin</path>
+    		</component>
+    		<component type="data" ftp="fir_blast_db">
+    			<name>sprot-hba.tar.gz</name>
+        		<path></path>
+    		</component>
+    		<component type="data" ftp="fir_blast_db">
+    			<name>pataa.tar.gz</name>
+        		<path></path>
+    		</component>
+    		<!--
+    		<component type="data" ftp="fir_blast_db">
+    			<name>nr.tar.gz</name>
+        		<path></path>
+    		</component>
+    		-->
+    	</service>
+    </services>
+    
+    <!--for ppc machines running Mac OS-->
+    <services os="Mac" arch="ppc">
+    	<service name="NCBI_BLAST">
+    		<component type="executable" ftp="fir_blast_exec">
+    			<name>blast-2.2.6-ppc-macos.tar.gz</name>
+        		<path>bin</path>
+    		</component>
+    		<component type="data" ftp="fir_blast_db">
+    			<name>sprot-hba.tar.gz</name>
+        		<path></path>
+    		</component>
+    		<component type="data" ftp="fir_blast_db">
+    			<name>pataa.tar.gz</name>
+        		<path></path>
+    		</component>
+    		<!--
+    		<component type="data" ftp="fir_blast_db">
+    			<name>nr.tar.gz</name>
+        		<path></path>
+    		</component>
+    		-->
+    	</service>
+    </services>
+</grid>

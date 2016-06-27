@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="svn://ala.cbi.pku.edu.cn/abcuser"
+   revision="1"
+   url="svn://ala.cbi.pku.edu.cn/abcuser/trunk/lib"
+   last-author="suny"
+   uuid="3d57b17c-d425-0410-abaf-acd6a93fe988"
+   committed-date="2006-12-30T16:08:13.966129Z"
+   name=""
+   kind="dir"
+   committed-rev="1"/>
+<entry
+   checksum="0f18acf5fa857f9959675e14d901a7ce"
+   last-author="suny"
+   prop-time="2006-12-30T15:52:20.000000Z"
+   text-time="2006-12-30T16:08:14.000000Z"
+   committed-date="2006-12-30T16:08:13.966129Z"
+   name="commons-beanutils.jar"
+   kind="file"
+   committed-rev="1"/>
+<entry
+   checksum="b0bf5f906af5a936992514ed087f1fa2"
+   last-author="suny"
+   prop-time="2006-12-30T15:52:20.000000Z"
+   text-time="2006-12-30T16:08:14.000000Z"
+   committed-date="2006-12-30T16:08:13.966129Z"
+   name="commons-io-1.2.jar"
+   kind="file"
+   committed-rev="1"/>
+</wc-entries>

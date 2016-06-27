@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="2"
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/master/trunk/src/pku/cbi/abcgrid/master/service/CE"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   kind="dir"
+   name=""
+   committed-rev="1"/>
+<entry
+   revision="326"
+   checksum="b31ee94d08490c168f1030e9bdb48fd0"
+   last-author="suny"
+   text-time="2007-01-17T18:26:48.000000Z"
+   committed-date="2007-01-17T18:49:16.578000Z"
+   kind="file"
+   name="CE.java"
+   committed-rev="326"/>
+</wc-entries>

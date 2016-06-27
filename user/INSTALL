@@ -1,0 +1,26 @@
+#####################################################
+#               INSTALL                             #
+#####################################################
+BINARY INSTALLATION:
+
+To install ABCUser, choose a directory and uncompress the distribution files there.
+For example, /home/abcuser
+
+>cd /home/abcuser
+>unzip user-bin.zip
+
+
+SOURCE INSTALLATION:
+
+System Requirements:
+
+JDK1.5-compatible java source code compiler(http://java.sun.com/javase/)
+and apache-ant(http://ant.apache.org/)
+
+
+>cd /home/abcuser
+>unzip user-src.zip
+>ant
+
+If successed, a sub directory of "dist" will be created under /home/abcuser.
+

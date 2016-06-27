@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="worker" default="all" basedir=".">
+
+    <!-- set global properties for this build -->
+    <property name="src.dir" value="${basedir}/src"/>
+    <property name="lib.dir" value="${basedir}/lib"/>
+    <property name="misc.dir" value="${basedir}/misc"/>
+
+    <property name="build.dir" value="${basedir}/dist"/>
+    <property name="build.bin.dir" value="${build.dir}/bin"/>
+    <property name="build.conf.dir" value="${build.dir}/conf"/>
+    <property name="build.log.dir" value="${build.dir}/log"/>
+    <property name="build.update.dir" value="${build.dir}/update"/>
+    <property name="build.job.dir" value="${build.dir}/job"/>
+    <property name="build.doc.dir" value="${build.dir}/doc"/>
+    <property name="build.service.dir" value="${build.dir}/service"/>
+    <property name="build.classes.dir" value="${build.dir}/classes"/>
+    <property name="main-class"  value="pku.cbi.abcgrid.worker.Console"/>
+    <property name="version" value="0.1"/>
+
+	<!--define classpath-->
+    <path id="classpath">
+        <!--<pathelement path="${java.class.path}"/>-->
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+        <!--<pathelement location="${basedir}/${classes}"/>-->
+    </path>
+
+    <target name="init">
+        <!-- Create the time stamp -->
+        <tstamp/>
+		<!--delete old and existing directory-->
+        <delete dir="${build.dir}" includeEmptyDirs="true"/>
+		<!--create directory-->
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${build.bin.dir}"/>
+        <mkdir dir="${build.conf.dir}"/>
+        <mkdir dir="${build.log.dir}"/>
+        <mkdir dir="${build.update.dir}/"/>
+        <mkdir dir="${build.job.dir}"/>
+        <mkdir dir="${build.doc.dir}"/>
+        <mkdir dir="${build.service.dir}"/>
+        <mkdir dir="${build.classes.dir}/"/>
+    </target>
+
+    <target name="copy">
+    
+    	<copy file="${basedir}/README"
+            tofile="${build.dir}/README"/>
+            
+        <copy file="${basedir}/INSTALL"
+            tofile="${build.dir}/INSTALL"/>
+
+        <copy toDir="${build.bin.dir}/">
+            <fileset dir="${lib.dir}">
+                <include name="*.jar"/>
+                <include name="*.dll"/>
+            </fileset>
+        </copy>
+    </target>
+
+
+    <target name="compile">
+        <javac  srcdir="${src.dir}"
+                destdir="${build.classes.dir}"
+                classpathref="classpath"
+                source="1.5"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <jar destfile="${build.bin.dir}/${ant.project.name}.jar"
+             basedir="${build.classes.dir}"
+             manifest="${misc.dir}/worker.manifest"/>
+    </target>
+
+
+    <target name="clean">
+        <delete dir="${build.classes.dir}"/>
+    </target>
+
+    <target name="run" depends="jar">
+        <java fork="true" classname="${main-class}">
+            <classpath>
+                <path refid="classpath"/>
+                <path location="${build.bin.dir}/${ant.project.name}.jar"/>
+            </classpath>
+        </java>
+    </target>
+
+    <target name="all" depends="init,copy,compile,jar,clean"/>
+
+</project>

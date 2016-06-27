@@ -1,0 +1,263 @@
+#####################################################
+#               CONFIGURATION                       #
+#####################################################
+
+For demonstration, suppose you have installed ABCMaster under the directory of /home/abcmaster
+
+There are two configuration files:
+master.conf (/home/abcmaster/conf/master.conf)
+Contains the configuration for user control.
+and 
+update.conf (/home/abcmaster/update.conf)
+Contains the configuration for online update.
+
+1.	master.conf
+This file was used to configure ABCMaster¡¯s address and user control.
+<port> is used to configure the connecting ports for ABCWorker and ABCUser. For example:
+	<port>
+        <worker>4170</worker>
+        <user>4171</user>
+    </port>
+By default, ABCGrid use ports 4170 and 4171.
+
+<auth> is used to control all ABCGrid users. For example:
+
+	<auth>
+		<user>
+        	<name>demo</name>
+            <password>demo</password>
+            <address>162.105.250.180</address>
+            <priority>9</priority>
+            <group>user</group>
+            <home>/home/demo/abcgrid</home>
+		</user>
+	</auth>
+	
+<name>,<password>,<address> is used for authentication. <priority> is the job
+priority of this user. Smaller value means higher priority (the smallest value
+is 1). Job with higher priority will be executed early. </group> is the user¡¯s
+group. The <home> entity denotes the directory which will be used as the home
+directory(also called working directory) of ABCGrid user. When a user submit a
+job, ABCGrid will try to get input files from this directory and put result file
+into this directory. If this entity was left blank such as <home></home>, the home
+directory will be taken as /home/abcmaster/user/demo. Where the last path name
+equals to the user¡¯s name.
+
+2.	update.conf
+
+Attention: This is the most complicated part of ABCGrid, read it carefully and
+make sure you understand before you start configure the online update.
+
+The central idea behind the online update is: master node keeps a file (update.conf)
+which describe all information on data source, computing platforms, necessary
+applications and databases for online updating. This file serves as a reference
+file for all worker nodes. By comparing local configuration file (worker.conf)
+with update.conf, ABCWorker will know if it is necessary to launch online updating.
+If necessary, ABCWorker will download updated files from specified data source,
+extract downloaded files and update local configuration file (worker.conf).
+¡°update.conf¡± is a XML-formatted file which is defined by a XSD file(update.xsd).
+For convenience, we put a demo of this file here:
+
+<xml version=¡±1.0¡±>
+    <grid>
+        <!¡ªlist of ftp servers which contain files for updating-->
+        <ftplist>
+            <ftp name="ncbi_blast_exec">
+                <ip>ftp.ncbi.nlm.nih.gov</ip>
+                <port>21</port>
+                <user>anonymous</user>
+                <password>anonymous</password>
+                <!¡ªsubdirectory which contains the target file-->
+                <basepath>blast/executables/LATEST/</basepath>
+                <pasv>1</pasv>
+            </ftp>
+            <ftp name="ncbi_blast_data">
+                <ip>ftp.ncbi.nlm.nih.gov</ip>
+                <port>21</port>
+                <user>anonymous</user>
+                <password>anonymous</password>
+                <basepath>blast/db/</basepath>
+                <pasv>1</pasv>
+            </ftp>
+        <ftplist>
+
+    <!--for i386 machines running linux-->
+    <services os="Linux" arch="i386" >
+        <service name="NCBI_BLAST">
+	        <!¡ª-executable component-->
+            <component type="executable" ftp="ncbi_blast_exec">
+       		    <name>blast-2.2.14-ia32-linux.tar.gz</name>
+                <path>blast-2.2.14/bin</path>
+            </component>
+            <!¡ª-data component-->
+            <component type="data" ftp="ncbi_blast_data">
+                <name>nr.tar.gz</name>
+                <path></path>
+            </component>
+            <component type="data" ftp="ncbi_blast_data">
+                <name>pataa.tar.gz</name>
+                <path></path>
+            </component>
+        </service>
+        <service name="HMMER">
+            <component type="executable" ftp="suny_hmmer_exec">
+    	    	<name>hmmer-2.3.2-x86-linux.tar.gz</name>
+        	    <path>bin</path>
+    	    </component>
+    	    <component type="data" ftp="suny_hmmer_db">
+    		    <name>Pfam_ls.gz</name>
+        	    <path></path>
+    	    </component>
+        </service>
+    </services>
+
+    <!--for x86 machines running windows-->
+    <services os="Windows" arch="x86">
+        <service name="NCBI_BLAST">
+    	    <component type="executable" ftp=" ncbi_blast_exec">
+    			<name>blast-2.2.14-ia32-win32.exe</name>
+        		<path>bin/</path>
+    	    </component>
+            <component type="data" ftp="ncbi_blast_data">
+                <name>nr.tar.gz</name>
+                <path></path>
+            </component>
+            <component type="data" ftp=" ncbi_blast_data">
+    			<name>pataa.tar.gz</name>
+     	        <path></path>
+            </component>
+        </service>
+    </services>
+</grid>
+
+What did this file tell us?
+
+1.	Two ftp server, one is ncbi_blast_exec, another is ncbi_blast_data.
+2.	Support two computing platform, Linux/i386 and Windows/x86.
+3.	For Linux/i386 platform, two services should be supported. NCBI_BLAST and HMMER.
+Service NCBI_BLAST has three components: one executable component including all
+executable files such as blastall, megablast and two data components including
+nr database and pataa database. Service HMMER has two components: one executable
+component including executable files such as hmmpfam and one data component Pfam_ls database.
+Note all databases must be pre-formatted.
+4.	For Windows/x86 platform, only one services NCBI_BLAST should be supported.
+Service NCBI_BLAST has three components: one executable component and two data components
+same as the Linux/i386 platform. ATTENTION: One service MUST has same components in all
+platforms. Worker get tasks based on its supported services not on detailed service components.
+If you ask a blast-against-nr operation, Worker will take this job even it does not install
+nr database. Consequently this job is discarded at Worker side, no results could be returned.
+
+Now let¡¯s go into more details. <service> is the basic element which defined an application package,
+such as NCBI_BLAST and HMMER. Service is consists of <components> which could be characterized
+by two categories: executable component and data component. Take NCBI_BLAST as example, blastall,
+rpsblast, bl2seq both belong to executable component. Pre-formatted nr, nt and swissprot both
+belong to data component. One service MUST has at least one executable component.
+We use an example to illustrate the details line by line.
+
+1.	<services os="Linux" arch="i386" >
+2.	    <service name="NCBI_BLAST">
+3.	    	<component type="executable" ftp="ncbi_blast_exec">
+4.	    	    <name>blast-2.2.14-ia32-linux.tar.gz</name>
+5.	        	<path>blast-2.2.14/bin</path>
+6.	 	    </component>
+7.	  		<component type="data" ftp="ncbi_blast_data">
+8.	 			<name>nr.tar.gz</name>
+9.	 			<path></path>
+10.	 		</component>
+11.	 		<component type="data" ftp="ncbi_blast_data">
+12.	 			<name>pataa.tar.gz</name>
+13.	 			<path></path>
+14.	 		</component>
+15.	 	</service>
+16.	</services>
+
+Line 1. <services os="Linux" arch="i386" >
+These services are intended to use in i386 machine running Linux.
+
+Line 2. <service name="NCBI_BLAST">
+The service is NCBI_BLAST.
+
+Line 3,4,5,6
+    	<component type="executable" ftp="ncbi_blast_exec">
+    	    <name>blast-2.2.14-ia32-linux.tar.gz</name>
+ 			<path>blast-2.2.14/bin</path>
+ 		</component>
+*This paragraph is very important.
+This section defined the executable component of NCBI_BLAST.
+This component should be downloaded from ¡°ftp:ncbi_blast_exec¡± which is defined by above <ftp> entry.
+The component¡¯s file name is blast-2.2.14-ia32-linux.tar.gz. After being downloaded and extracted,
+this component can be found under C:\worker\service\NCBI_BLAST\executable\blast-2.2.14\bin
+
+*Suppose you have installed Worker application under C:\worker\
+Where is the path coming from?  After download and extract one component, the Worker must know where
+to find the extracted component which could be either executable applications or database.
+Worker will download blast-2.2.14-ia32-linux.tar.gz and extract it to
+C:\worker\service\$SERVICE_NAME\$COMPONENT_TYPE\$COMPONENT_PATH.
+In this example, $SERVICE_NAME is ¡°NCBI_BLAST¡±, $COMPONENT_TYPE is ¡°executable¡± and $COMPONENT_PATH
+is ¡°blast-2.2.14/bin¡±. So the full path to extracted blast-2.2.14-ia32-linux.tar.gz is
+C:\worker\service\NCBI_BLAST\executable\blast-2.2.14\bin
+List the files in that directory, you will find all NCBI_BLAST executable files such as
+¡°blastall¡± and ¡°rpsblast¡± etc.
+
+Why the path must be defined as <path>blast-2.2.14/bin</path>?
+Because extracted blast-2.2.14-ia32-linux.tar.gz will make some sub-directories.
+
+>cd demo
+>tar ¨Czxvf blast-2.2.14-ia32-linux.tar.gz
+
+The directory tree looks like:
+demo/
+	+---blast-2.2.14/
+				+----bin/
+						+---blastall*
+						+---bl2seq*
+						+--- ...
+        		+----doc/
+				+----data/
+
+The rule is also applied to data component. Line 7,8,9,10 defined a
+Data component of NCBI_BLAST:
+<component type="data" ftp="ncbi_blast_data">
+    <name>nr.tar.gz</name>
+    <path></path>
+</component>
+Notice the component_path is blank, because extracted nr.tar.gz
+does not make any sub-directories. Now the nr database could be found under C:\worker\service\NCBI_BLAST\data\
+To emphasis again, a component will be extracted to
+C:\worker\service\$SERVICE_NAME\$COMPONENT_TYPE\$COMPONENT_PATH.
+
+The windows version of NCBI_BLAST is .exe file. Execution of blast-2.2.14.exe
+
+>cd c:\demo
+>blast-2.2.14.exe
+will make a directoy tree like:
+c:\demo\
+	|
+    +----bin\
+			|
+			+---blastall*
+			+---bl2seq*
+			+--- ...
+    +----doc\
+	+----data\
+
+So the NCBI_BLAST executable component for Windows is:
+<component type="executable" ftp=" ncbi_blast_exec">
+    <name>blast-2.2.14-ia32-win32.exe</name>
+    <path>bin/</path>
+</component>
+Make sure you set the right value of <path>. It is different from
+the Linux/i386 version.
+
+The update process is launched from Master by input comamnd "u" in the console window.
+Once launched, the update process will try to find a configuration file
+$ABCGRID_MASTER_HOME/conf/update.conf and read its content, transfer the content data to all
+connected Worker nodes. Worker nodes will compare local copy with the update data from Master.
+If differences were found, e.g. add/delete and update. The worker node will try to download data
+from ftp server and extracted to local disk, update the local configuration file.
+So the very first thing to update all worker nodes is to configure the "update.conf" in Master node.
+
+Note:
+It is strongly recommended that all required data and applications from the original ftp site should be
+downloaded to a local ftp site. Local ftp site is generally much faster than original ftpsite and can
+save lots of time.

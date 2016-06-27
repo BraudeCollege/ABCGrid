@@ -1,0 +1,25 @@
+#####################################################
+#               INSTALL                             #
+#####################################################
+BINARY INSTALLATION:
+
+To install ABCWorker, choose a directory and uncompress the distribution files there.
+For example, /home/abcworker
+
+>cd /home/abcworker
+>unzip worker-bin.zip
+
+
+SOURCE INSTALLATION:
+
+System Requirements:
+
+JDK1.5-compatible java source code compiler(http://java.sun.com/javase/)
+and apache-ant(http://ant.apache.org/)
+
+
+>cd /home/abcworker
+>unzip worker-src.zip
+>ant
+
+If successed, a sub directory of "dist" will be created under /home/abcworker.

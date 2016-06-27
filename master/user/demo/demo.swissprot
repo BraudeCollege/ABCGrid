@@ -1,0 +1,903 @@
+ID   104K_THEPA     STANDARD;      PRT;   924 AA.
+AC   P15711;
+DT   01-APR-1990 (Rel. 14, Created)
+DT   01-APR-1990 (Rel. 14, Last sequence update)
+DT   10-MAY-2005 (Rel. 47, Last annotation update)
+DE   104 kDa microneme-rhoptry antigen.
+OS   Theileria parva.
+OC   Eukaryota; Alveolata; Apicomplexa; Piroplasmida; Theileriidae;
+OC   Theileria.
+OX   NCBI_TaxID=5875;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=Muguga;
+RX   MEDLINE=90158697; PubMed=1689460; DOI=10.1016/0166-6851(90)90007-9;
+RA   Iams K.P., Young J.R., Nene V., Desai J., Webster P., Ole-Moiyoi O.K.,
+RA   Musoke A.J.;
+RT   "Characterisation of the gene encoding a 104-kilodalton microneme-
+RT   rhoptry protein of Theileria parva.";
+RL   Mol. Biochem. Parasitol. 39:47-60(1990).
+CC   -!- SUBCELLULAR LOCATION: In microneme/rhoptry complexes.
+CC   -!- DEVELOPMENTAL STAGE: Sporozoite antigen.
+CC   --------------------------------------------------------------------------
+CC   This Swiss-Prot entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use as long as its content is in no way modified and this statement is not
+CC   removed.
+CC   --------------------------------------------------------------------------
+DR   EMBL; M29954; AAA18217.1; -; Unassigned_DNA.
+DR   PIR; A44945; A44945.
+DR   InterPro; IPR007480; DUF529.
+DR   Pfam; PF04385; FAINT; 4.
+KW   Antigen; Repeat; Sporozoite.
+FT   REGION        1     19       Hydrophobic.
+FT   REGION      905    924       Hydrophobic.
+SQ   SEQUENCE   924 AA;  103626 MW;  289B4B554A61870E CRC64;
+     MKFLILLFNI LCLFPVLAAD NHGVGPQGAS GVDPITFDIN SNQTGPAFLT AVEMAGVKYL
+     QVQHGSNVNI HRLVEGNVVI WENASTPLYT GAIVTNNDGP YMAYVEVLGD PNLQFFIKSG
+     DAWVTLSEHE YLAKLQEIRQ AVHIESVFSL NMAFQLENNK YEVETHAKNG ANMVTFIPRN
+     GHICKMVYHK NVRIYKATGN DTVTSVVGFF RGLRLLLINV FSIDDNGMMS NRYFQHVDDK
+     YVPISQKNYE TGIVKLKDYK HAYHPVDLDI KDIDYTMFHL ADATYHEPCF KIIPNTGFCI
+     TKLFDGDQVL YESFNPLIHC INEVHIYDRN NGSIICLHLN YSPPSYKAYL VLKDTGWEAT
+     THPLLEEKIE ELQDQRACEL DVNFISDKDL YVAALTNADL NYTMVTPRPH RDVIRVSDGS
+     EVLWYYEGLD NFLVCAWIYV SDGVASLVHL RIKDRIPANN DIYVLKGDLY WTRITKIQFT
+     QEIKRLVKKS KKKLAPITEE DSDKHDEPPE GPGASGLPPK APGDKEGSEG HKGPSKGSDS
+     SKEGKKPGSG KKPGPAREHK PSKIPTLSKK PSGPKDPKHP RDPKEPRKSK SPRTASPTRR
+     PSPKLPQLSK LPKSTSPRSP PPPTRPSSPE RPEGTKIIKT SKPPSPKPPF DPSFKEKFYD
+     DYSKAASRSK ETKTTVVLDE SFESILKETL PETPGTPFTT PRPVPPKRPR TPESPFEPPK
+     DPDSPSTSPS EFFTPPESKR TRFHETPADT PLPDVTAELF KEPDVTAETK SPDEAMKRPR
+     SPSEYEDTSP GDYPSLPMKR HRLERLRLTT TEMETDPGRM AKDASGKPVK LKRSKSFDDL
+     TTVELAPEPK ASRIVVDDEG TEADDEETHP PEERQKTEVR RRRPPKKPSK SPRPSKPKKP
+     KKPDSAYIPS ILAILVVSLI VGIL
+//
+ID   108_LYCES      STANDARD;      PRT;   102 AA.
+AC   Q43495;
+DT   15-JUL-1999 (Rel. 38, Created)
+DT   15-JUL-1999 (Rel. 38, Last sequence update)
+DT   24-JAN-2006 (Rel. 49, Last annotation update)
+DE   Protein 108 precursor.
+OS   Lycopersicon esculentum (Tomato).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; core eudicotyledons;
+OC   asterids; lamiids; Solanales; Solanaceae; Solanum; Lycopersicon.
+OX   NCBI_TaxID=4081;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. VF36; TISSUE=Anther;
+RX   MEDLINE=94143497; PubMed=8310077; DOI=10.1104/pp.101.4.1413;
+RA   Chen R., Smith A.G.;
+RT   "Nucleotide sequence of a stamen- and tapetum-specific gene from
+RT   Lycopersicon esculentum.";
+RL   Plant Physiol. 101:1413-1413(1993).
+CC   -!- TISSUE SPECIFICITY: Stamen- and tapetum-specific.
+CC   -!- SIMILARITY: Belongs to the A9/FIL1 family.
+CC   --------------------------------------------------------------------------
+CC   This Swiss-Prot entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use as long as its content is in no way modified and this statement is not
+CC   removed.
+CC   --------------------------------------------------------------------------
+DR   EMBL; Z14088; CAA78466.1; -; mRNA.
+DR   PIR; S26409; S26409.
+DR   InterPro; IPR003612; AAI.
+DR   Pfam; PF00234; Tryp_alpha_amyl; 1.
+DR   SMART; SM00499; AAI; 1.
+KW   Signal.
+FT   SIGNAL        1     30       Potential.
+FT   CHAIN        31    102       Protein 108.
+FT                                /FTId=PRO_0000000238.
+FT   DISULFID     41     77       By similarity.
+FT   DISULFID     51     66       By similarity.
+FT   DISULFID     67     92       By similarity.
+FT   DISULFID     79     99       By similarity.
+SQ   SEQUENCE   102 AA;  10576 MW;  CFBAA1231C3A5E92 CRC64;
+     MASVKSSSSS SSSSFISLLL LILLVIVLQS QVIECQPQQS CTASLTGLNV CAPFLVPGSP
+     TASTECCNAV QSINHDCMCN TMRIAAQIPA QCNLPPLSCS AN
+//
+ID   10KD_VIGUN     STANDARD;      PRT;    75 AA.
+AC   P18646;
+DT   01-NOV-1990 (Rel. 16, Created)
+DT   01-NOV-1990 (Rel. 16, Last sequence update)
+DT   24-JAN-2006 (Rel. 49, Last annotation update)
+DE   10 kDa protein precursor (Clone PSAS10).
+OS   Vigna unguiculata (Cowpea).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; core eudicotyledons;
+OC   rosids; eurosids I; Fabales; Fabaceae; Papilionoideae; Phaseoleae;
+OC   Vigna.
+OX   NCBI_TaxID=3917;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   TISSUE=Cotyledon;
+RX   MEDLINE=91355865; PubMed=2103443;
+RA   Ishibashi N., Yamauchi D., Minamikawa T.;
+RT   "Stored mRNA in cotyledons of Vigna unguiculata seeds: nucleotide
+RT   sequence of cloned cDNA for a stored mRNA and induction of its
+RT   synthesis by precocious germination.";
+RL   Plant Mol. Biol. 15:59-64(1990).
+CC   -!- FUNCTION: This protein is required for germination.
+CC   -!- SIMILARITY: Belongs to the plant defensin family.
+CC   --------------------------------------------------------------------------
+CC   This Swiss-Prot entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use as long as its content is in no way modified and this statement is not
+CC   removed.
+CC   --------------------------------------------------------------------------
+DR   EMBL; X16877; CAA34760.1; -; mRNA.
+DR   PIR; S11156; S11156.
+DR   HSSP; P81929; 1JKZ.
+DR   InterPro; IPR008177; G_Purothionin.
+DR   InterPro; IPR008176; Gamma-thionin.
+DR   InterPro; IPR003614; Knot1.
+DR   Pfam; PF00304; Gamma-thionin; 1.
+DR   ProDom; PD002594; G_Purothionin; 1.
+DR   SMART; SM00505; Knot1; 1.
+DR   PROSITE; PS00940; GAMMA_THIONIN; 1.
+KW   Germination; Signal.
+FT   SIGNAL        1     24       Potential.
+FT   CHAIN        25     75       10 kDa protein.
+FT                                /FTId=PRO_0000007058.
+FT   DISULFID     31     75       By similarity.
+FT   DISULFID     42     63       By similarity.
+FT   DISULFID     48     69       By similarity.
+FT   DISULFID     52     71       By similarity.
+SQ   SEQUENCE   75 AA;  8523 MW;  6D72D9D238CF7650 CRC64;
+     MEKKSIAGLC FLFLVLFVAQ EVVVQSEAKT CENLVDTYRG PCFTTGSCDD HCKNKEHLLS
+     GRCRDDVRCW CTRNC
+//
+ID   110KD_PLAKN    STANDARD;      PRT;   296 AA.
+AC   P13813;
+DT   01-JAN-1990 (Rel. 13, Created)
+DT   01-JAN-1990 (Rel. 13, Last sequence update)
+DT   24-JAN-2006 (Rel. 49, Last annotation update)
+DE   110 kDa antigen (PK110) (Fragment).
+OS   Plasmodium knowlesi.
+OC   Eukaryota; Alveolata; Apicomplexa; Haemosporida; Plasmodium.
+OX   NCBI_TaxID=5850;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RX   MEDLINE=88039002; PubMed=2444886; DOI=10.1016/0166-6851(87)90007-7;
+RA   Perler F.B., Moon A.M., Qiang B.Q., Meda M., Dalton M., Card C.,
+RA   Schmidt-Ullrich R., Wallach D., Lynch J., Donelson J.E.;
+RT   "Cloning and characterization of an abundant Plasmodium knowlesi
+RT   antigen which cross reacts with Gambian sera.";
+RL   Mol. Biochem. Parasitol. 25:185-193(1987).
+CC   --------------------------------------------------------------------------
+CC   This Swiss-Prot entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use as long as its content is in no way modified and this statement is not
+CC   removed.
+CC   --------------------------------------------------------------------------
+DR   EMBL; M19152; AAA29471.1; -; mRNA.
+DR   PIR; A54527; A54527.
+KW   Antigen; Malaria; Repeat.
+FT   REPEAT      132    143       1 (approximate).
+FT   REPEAT      144    155       2 (approximate).
+FT   REPEAT      156    167       3.
+FT   REPEAT      168    179       4 (approximate).
+FT   REPEAT      180    191       5.
+FT   REPEAT      192    203       6 (approximate).
+FT   REPEAT      204    215       7.
+FT   REPEAT      216    227       8.
+FT   REPEAT      228    239       9.
+FT   REPEAT      240    251       10.
+FT   REPEAT      252    263       11.
+FT   REPEAT      264    275       12.
+FT   REPEAT      276    287       13 (approximate).
+FT   REPEAT      288    293       14 (incomplete).
+FT   REGION      132    296       13.5 X 12 AA approximate tandem repeats
+FT                                of E-E-T-Q-K-T-V-E-P-E-Q-T.
+FT   NON_TER       1      1
+SQ   SEQUENCE   296 AA;  34077 MW;  B0D7CD175C7A3625 CRC64;
+     FNSNMLRGSV CEEDVSLMTS IDNMIEEIDF YEKEIYKGSH SGGVIKGMDY DLEDDENDED
+     EMTEQMVEEV ADHITQDMID EVAHHVLDNI THDMAHMEEI VHGLSGDVTQ IKEIVQKVNV
+     AVEKVKHIVE TEETQKTVEP EQIEETQNTV EPEQTEETQK TVEPEQTEET QNTVEPEQIE
+     ETQKTVEPEQ TEEAQKTVEP EQTEETQKTV EPEQTEETQK TVEPEQTEET QKTVEPEQTE
+     ETQKTVEPEQ TEETQKTVEP EQTEETQKTV EPEQTEETQN TVEPEPTQET QNTVEP
+//
+ID   11S2_SESIN     STANDARD;      PRT;   459 AA.
+AC   Q9XHP0;
+DT   24-JAN-2006 (Rel. 49, Created)
+DT   24-JAN-2006 (Rel. 49, Last sequence update)
+DT   24-JAN-2006 (Rel. 49, Last annotation update)
+DE   11S globulin seed storage protein 2 precursor (11S globulin seed
+DE   storage protein II) (alpha-globulin) [Contains: 11S globulin seed
+DE   storage protein 2 acidic chain (11S globulin seed storage protein II
+DE   acidic chain); 11S globulin seed storage protein 2 basic chain (11S
+DE   globulin seed storage protein II basic chain)].
+OS   Sesamum indicum (Oriental sesame) (Gingelly).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; core eudicotyledons;
+OC   asterids; lamiids; Lamiales; Pedaliaceae; Sesamum.
+OX   NCBI_TaxID=4182;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. Tainan 1; TISSUE=Seed;
+RX   MEDLINE=20074970; PubMed=10606554; DOI=10.1021/jf990366z;
+RA   Tai S.S.K., Wu L.S.H., Chen E.C.F., Tzen J.T.C.;
+RT   "Molecular cloning of 11S globulin and 2S albumin, the two major seed
+RT   storage proteins in sesame.";
+RL   J. Agric. Food Chem. 47:4932-4938(1999).
+CC   -!- FUNCTION: Seed storage protein.
+CC   -!- SUBUNIT: Hexamer; each subunit is composed of an acidic and a
+CC       basic chain derived from a single precursor and linked by a
+CC       disulfide bond (By similarity).
+CC   -!- SIMILARITY: Belongs to the 11S seed storage protein (globulins)
+CC       family.
+CC   --------------------------------------------------------------------------
+CC   This Swiss-Prot entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use as long as its content is in no way modified and this statement is not
+CC   removed.
+CC   --------------------------------------------------------------------------
+DR   EMBL; AF091842; AAD42944.1; -; mRNA.
+DR   HSSP; P04776; 1FXZ.
+DR   InterPro; IPR006045; Cupin.
+DR   InterPro; IPR007113; Cupin_region.
+DR   InterPro; IPR006044; Seedstore_11s.
+DR   Pfam; PF00190; Cupin_1; 2.
+DR   PRINTS; PR00439; 11SGLOBULIN.
+DR   PROSITE; PS00305; 11S_SEED_STORAGE; 1.
+KW   Multigene family; Seed storage protein; Signal; Storage protein.
+FT   SIGNAL        1     21       Potential.
+FT   CHAIN        22    277       11S globulin seed storage protein 2
+FT                                acidic chain (By similarity).
+FT                                /FTId=PRO_0000043209.
+FT   CHAIN       278    459       11S globulin seed storage protein 2 basic
+FT                                chain (By similarity).
+FT                                /FTId=PRO_0000043210.
+FT   DISULFID     34     67       Potential.
+FT   DISULFID    110    284       Interchain (between acidic and basic
+FT                                chains) (By similarity).
+SQ   SEQUENCE   459 AA;  51830 MW;  E852F6C47B319200 CRC64;
+     MVAFKFLLAL SLSLLVSAAI AQTREPRLTQ GQQCRFQRIS GAQPSLRIQS EGGTTELWDE
+     RQEQFQCAGI VAMRSTIRPN GLSLPNYHPS PRLVYIERGQ GLISIMVPGC AETYQVHRSQ
+     RTMERTEASE QQDRGSVRDL HQKVHRLRQG DIVAIPSGAA HWCYNDGSED LVAVSINDVN
+     HLSNQLDQKF RAFYLAGGVP RSGEQEQQAR QTFHNIFRAF DAELLSEAFN VPQETIRRMQ
+     SEEEERGLIV MARERMTFVR PDEEEGEQEH RGRQLDNGLE ETFCTMKFRT NVESRREADI
+     FSRQAGRVHV VDRNKLPILK YMDLSAEKGN LYSNALVSPD WSMTGHTIVY VTRGDAQVQV
+     VDHNGQALMN DRVNQGEMFV VPQYYTSTAR AGNNGFEWVA FKTTGSPMRS PLAGYTSVIR
+     AMPLQVITNS YQISPNQAQA LKMNRGSQSF LLSPGGRRS
+//
+ID   11S3_HELAN     STANDARD;      PRT;   493 AA.
+AC   P19084;
+DT   01-NOV-1990 (Rel. 16, Created)
+DT   01-NOV-1990 (Rel. 16, Last sequence update)
+DT   24-JAN-2006 (Rel. 49, Last annotation update)
+DE   11S globulin seed storage protein G3 precursor (Helianthinin G3)
+DE   [Contains: 11S globulin seed storage protein G3 acidic chain; 11S
+DE   globulin seed storage protein G3 basic chain].
+GN   Name=HAG3;
+OS   Helianthus annuus (Common sunflower).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; core eudicotyledons;
+OC   asterids; campanulids; Asterales; Asteraceae; Asteroideae;
+OC   Heliantheae; Helianthus.
+OX   NCBI_TaxID=4232;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   MEDLINE=89232734; PubMed=2469623; DOI=10.1016/0378-1119(88)90176-X;
+RA   Vonder Haar R.A., Allen R.D., Cohen E.A., Nessler C.L., Thomas T.L.;
+RT   "Organization of the sunflower 11S storage protein gene family.";
+RL   Gene 74:433-443(1988).
+CC   -!- FUNCTION: This is a seed storage protein.
+CC   -!- SUBUNIT: Hexamer; each subunit is composed of an acidic and a
+CC       basic chain derived from a single precursor and linked by a
+CC       disulfide bond.
+CC   -!- SIMILARITY: Belongs to the 11S seed storage protein (globulins)
+CC       family.
+CC   --------------------------------------------------------------------------
+CC   This Swiss-Prot entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use as long as its content is in no way modified and this statement is not
+CC   removed.
+CC   --------------------------------------------------------------------------
+DR   EMBL; M28832; AAA33374.1; -; Genomic_DNA.
+DR   PIR; JA0089; JA0089.
+DR   HSSP; P04776; 1FXZ.
+DR   InterPro; IPR006045; Cupin.
+DR   InterPro; IPR007113; Cupin_region.
+DR   InterPro; IPR006044; Seedstore_11s.
+DR   Pfam; PF00190; Cupin_1; 2.
+DR   PRINTS; PR00439; 11SGLOBULIN.
+DR   PROSITE; PS00305; 11S_SEED_STORAGE; 1.
+KW   Multigene family; Seed storage protein; Signal; Storage protein.
+FT   SIGNAL        1     20
+FT   CHAIN        21    305       11S globulin seed storage protein G3
+FT                                acidic chain.
+FT                                /FTId=PRO_0000032025.
+FT   CHAIN       306    493       11S globulin seed storage protein G3
+FT                                basic chain.
+FT                                /FTId=PRO_0000032026.
+FT   COMPBIAS     23     35       Gln-rich.
+FT   COMPBIAS    111    127       Gln/Gly-rich.
+FT   COMPBIAS    191    297       Gln-rich.
+FT   DISULFID    103    312       Interchain (between acidic and basic
+FT                                chains) (Potential).
+SQ   SEQUENCE   493 AA;  55687 MW;  A007B6F99D189AB5 CRC64;
+     MASKATLLLA FTLLFATCIA RHQQRQQQQN QCQLQNIEAL EPIEVIQAEA GVTEIWDAYD
+     QQFQCAWSIL FDTGFNLVAF SCLPTSTPLF WPSSREGVIL PGCRRTYEYS QEQQFSGEGG
+     RRGGGEGTFR TVIRKLENLK EGDVVAIPTG TAHWLHNDGN TELVVVFLDT QNHENQLDEN
+     QRRFFLAGNP QAQAQSQQQQ QRQPRQQSPQ RQRQRQRQGQ GQNAGNIFNG FTPELIAQSF
+     NVDQETAQKL QGQNDQRGHI VNVGQDLQIV RPPQDRRSPR QQQEQATSPR QQQEQQQGRR
+     GGWSNGVEET ICSMKFKVNI DNPSQADFVN PQAGSIANLN SFKFPILEHL RLSVERGELR
+     PNAIQSPHWT INAHNLLYVT EGALRVQIVD NQGNSVFDNE LREGQVVVIP QNFAVIKRAN
+     EQGSRWVSFK TNDNAMIANL AGRVSASAAS PLTLWANRYQ LSREEAQQLK FSQRETVLFA
+     PSFSRGQGIR ASR
+//
+ID   11SB_CUCMA     STANDARD;      PRT;   480 AA.
+AC   P13744;
+DT   01-JAN-1990 (Rel. 13, Created)
+DT   01-JAN-1990 (Rel. 13, Last sequence update)
+DT   24-JAN-2006 (Rel. 49, Last annotation update)
+DE   11S globulin beta subunit precursor [Contains: 11S globulin gamma
+DE   chain (11S globulin acidic chain); 11S globulin delta chain (11S
+DE   globulin basic chain)].
+OS   Cucurbita maxima (Pumpkin) (Winter squash).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; core eudicotyledons;
+OC   rosids; eurosids I; Cucurbitales; Cucurbitaceae; Cucurbita.
+OX   NCBI_TaxID=3661;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. Kurokawa Amakuri Nankin;
+RX   MEDLINE=88166744; PubMed=2450746;
+RA   Hayashi M., Mori H., Nishimura M., Akazawa T., Hara-Nishimura I.;
+RT   "Nucleotide sequence of cloned cDNA coding for pumpkin 11-S globulin
+RT   beta subunit.";
+RL   Eur. J. Biochem. 172:627-632(1988).
+RN   [2]
+RP   PROTEIN SEQUENCE OF 22-30 AND 297-302.
+RA   Ohmiya M., Hara I., Mastubara H.;
+RT   "Pumpkin (Cucurbita sp.) seed globulin IV. Terminal sequences of the
+RT   acidic and basic peptide chains and identification of a pyroglutamyl
+RT   peptide chain.";
+RL   Plant Cell Physiol. 21:157-167(1980).
+CC   -!- FUNCTION: This is a seed storage protein.
+CC   -!- SUBUNIT: Hexamer; each subunit is composed of an acidic and a
+CC       basic chain derived from a single precursor and linked by a
+CC       disulfide bond.
+CC   -!- SIMILARITY: Belongs to the 11S seed storage protein (globulins)
+CC       family.
+CC   --------------------------------------------------------------------------
+CC   This Swiss-Prot entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use as long as its content is in no way modified and this statement is not
+CC   removed.
+CC   --------------------------------------------------------------------------
+DR   EMBL; M36407; AAA33110.1; -; mRNA.
+DR   HSSP; P04776; 1FXZ.
+DR   InterPro; IPR006045; Cupin.
+DR   InterPro; IPR007113; Cupin_region.
+DR   InterPro; IPR006044; Seedstore_11s.
+DR   Pfam; PF00190; Cupin_1; 2.
+DR   PRINTS; PR00439; 11SGLOBULIN.
+DR   PROSITE; PS00305; 11S_SEED_STORAGE; 1.
+KW   Direct protein sequencing; Pyrrolidone carboxylic acid;
+KW   Seed storage protein; Signal; Storage protein.
+FT   SIGNAL        1     21
+FT   CHAIN        22    480       11S globulin beta subunit.
+FT                                /FTId=PRO_0000032027.
+FT   CHAIN        22    296       11S globulin gamma chain.
+FT                                /FTId=PRO_0000032028.
+FT   CHAIN       297    480       11S globulin delta chain.
+FT                                /FTId=PRO_0000032029.
+FT   MOD_RES      22     22       Pyrrolidone carboxylic acid.
+FT   DISULFID    124    303       Interchain (between gamma and delta
+FT                                chains) (Potential).
+FT   CONFLICT     27     27       S -> E (in Ref. 2).
+FT   CONFLICT     30     30       E -> S (in Ref. 2).
+SQ   SEQUENCE   480 AA;  54626 MW;  BCD8A83DD1AED93C CRC64;
+     MARSSLFTFL CLAVFINGCL SQIEQQSPWE FQGSEVWQQH RYQSPRACRL ENLRAQDPVR
+     RAEAEAIFTE VWDQDNDEFQ CAGVNMIRHT IRPKGLLLPG FSNAPKLIFV AQGFGIRGIA
+     IPGCAETYQT DLRRSQSAGS AFKDQHQKIR PFREGDLLVV PAGVSHWMYN RGQSDLVLIV
+     FADTRNVANQ IDPYLRKFYL AGRPEQVERG VEEWERSSRK GSSGEKSGNI FSGFADEFLE
+     EAFQIDGGLV RKLKGEDDER DRIVQVDEDF EVLLPEKDEE ERSRGRYIES ESESENGLEE
+     TICTLRLKQN IGRSVRADVF NPRGGRISTA NYHTLPILRQ VRLSAERGVL YSNAMVAPHY
+     TVNSHSVMYA TRGNARVQVV DNFGQSVFDG EVREGQVLMI PQNFVVIKRA SDRGFEWIAF
+     KTNDNAITNL LAGRVSQMRM LPLGVLSNMY RISREEAQRL KYGQQEMRVL SPGRSQGRRE
+//
+ID   128UP_DROME    STANDARD;      PRT;   368 AA.
+AC   P32234; Q9V648;
+DT   01-OCT-1993 (Rel. 27, Created)
+DT   10-MAY-2005 (Rel. 47, Last sequence update)
+DT   13-SEP-2005 (Rel. 48, Last annotation update)
+DE   GTP-binding protein 128up.
+GN   Name=128up; Synonyms=GTP-bp; ORFNames=CG8340;
+OS   Drosophila melanogaster (Fruit fly).
+OC   Eukaryota; Metazoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+OC   Neoptera; Endopterygota; Diptera; Brachycera; Muscomorpha;
+OC   Ephydroidea; Drosophilidae; Drosophila.
+OX   NCBI_TaxID=7227;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Oregon-R;
+RX   MEDLINE=94166747; PubMed=8121394; DOI=10.1007/BF00281788;
+RA   Sommer K.A., Petersen G., Bautz E.K.F.;
+RT   "The gene upstream of DmRP128 codes for a novel GTP-binding protein of
+RT   Drosophila melanogaster.";
+RL   Mol. Gen. Genet. 242:391-398(1994).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Berkeley;
+RX   MEDLINE=20196006; PubMed=10731132; DOI=10.1126/science.287.5461.2185;
+RA   Adams M.D., Celniker S.E., Holt R.A., Evans C.A., Gocayne J.D.,
+RA   Amanatides P.G., Scherer S.E., Li P.W., Hoskins R.A., Galle R.F.,
+RA   George R.A., Lewis S.E., Richards S., Ashburner M., Henderson S.N.,
+RA   Sutton G.G., Wortman J.R., Yandell M.D., Zhang Q., Chen L.X.,
+RA   Brandon R.C., Rogers Y.-H.C., Blazej R.G., Champe M., Pfeiffer B.D.,
+RA   Wan K.H., Doyle C., Baxter E.G., Helt G., Nelson C.R., Miklos G.L.G.,
+RA   Abril J.F., Agbayani A., An H.-J., Andrews-Pfannkoch C., Baldwin D.,
+RA   Ballew R.M., Basu A., Baxendale J., Bayraktaroglu L., Beasley E.M.,
+RA   Beeson K.Y., Benos P.V., Berman B.P., Bhandari D., Bolshakov S.,
+RA   Borkova D., Botchan M.R., Bouck J., Brokstein P., Brottier P.,
+RA   Burtis K.C., Busam D.A., Butler H., Cadieu E., Center A., Chandra I.,
+RA   Cherry J.M., Cawley S., Dahlke C., Davenport L.B., Davies P.,
+RA   de Pablos B., Delcher A., Deng Z., Mays A.D., Dew I., Dietz S.M.,
+RA   Dodson K., Doup L.E., Downes M., Dugan-Rocha S., Dunkov B.C., Dunn P.,
+RA   Durbin K.J., Evangelista C.C., Ferraz C., Ferriera S., Fleischmann W.,
+RA   Fosler C., Gabrielian A.E., Garg N.S., Gelbart W.M., Glasser K.,
+RA   Glodek A., Gong F., Gorrell J.H., Gu Z., Guan P., Harris M.,
+RA   Harris N.L., Harvey D.A., Heiman T.J., Hernandez J.R., Houck J.,
+RA   Hostin D., Houston K.A., Howland T.J., Wei M.-H., Ibegwam C.,
+RA   Jalali M., Kalush F., Karpen G.H., Ke Z., Kennison J.A., Ketchum K.A.,
+RA   Kimmel B.E., Kodira C.D., Kraft C., Kravitz S., Kulp D., Lai Z.,
+RA   Lasko P., Lei Y., Levitsky A.A., Li J.H., Li Z., Liang Y., Lin X.,
+RA   Liu X., Mattei B., McIntosh T.C., McLeod M.P., McPherson D.,
+RA   Merkulov G., Milshina N.V., Mobarry C., Morris J., Moshrefi A.,
+RA   Mount S.M., Moy M., Murphy B., Murphy L., Muzny D.M., Nelson D.L.,
+RA   Nelson D.R., Nelson K.A., Nixon K., Nusskern D.R., Pacleb J.M.,
+RA   Palazzolo M., Pittman G.S., Pan S., Pollard J., Puri V., Reese M.G.,
+RA   Reinert K., Remington K., Saunders R.D.C., Scheeler F., Shen H.,
+RA   Shue B.C., Siden-Kiamos I., Simpson M., Skupski M.P., Smith T.,
+RA   Spier E., Spradling A.C., Stapleton M., Strong R., Sun E.,
+RA   Svirskas R., Tector C., Turner R., Venter E., Wang A.H., Wang X.,
+RA   Wang Z.-Y., Wassarman D.A., Weinstock G.M., Weissenbach J.,
+RA   Williams S.M., Woodage T., Worley K.C., Wu D., Yang S., Yao Q.A.,
+RA   Ye J., Yeh R.-F., Zaveri J.S., Zhan M., Zhang G., Zhao Q., Zheng L.,
+RA   Zheng X.H., Zhong F.N., Zhong W., Zhou X., Zhu S., Zhu X., Smith H.O.,
+RA   Gibbs R.A., Myers E.W., Rubin G.M., Venter J.C.;
+RT   "The genome sequence of Drosophila melanogaster.";
+RL   Science 287:2185-2195(2000).
+RN   [3]
+RP   GENOME REANNOTATION.
+RX   MEDLINE=22426069; PubMed=12537572;
+RA   Misra S., Crosby M.A., Mungall C.J., Matthews B.B., Campbell K.S.,
+RA   Hradecky P., Huang Y., Kaminker J.S., Millburn G.H., Prochnik S.E.,
+RA   Smith C.D., Tupy J.L., Whitfield E.J., Bayraktaroglu L., Berman B.P.,
+RA   Bettencourt B.R., Celniker S.E., de Grey A.D.N.J., Drysdale R.A.,
+RA   Harris N.L., Richter J., Russo S., Schroeder A.J., Shu S.Q.,
+RA   Stapleton M., Yamada C., Ashburner M., Gelbart W.M., Rubin G.M.,
+RA   Lewis S.E.;
+RT   "Annotation of the Drosophila melanogaster euchromatic genome: a
+RT   systematic review.";
+RL   Genome Biol. 3:RESEARCH0083.1-RESEARCH0083.22(2002).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=Berkeley; TISSUE=Embryo;
+RA   Stapleton M., Brokstein P., Hong L., Agbayani A., Carlson J.W.,
+RA   Champe M., Chavez C., Dorsett V., Dresnek D., Farfan D., Frise E.,
+RA   George R.A., Gonzalez M., Guarin H., Kronmiller B., Li P.W., Liao G.,
+RA   Miranda A., Mungall C.J., Nunoo J., Pacleb J.M., Paragas V., Park S.,
+RA   Patel S., Phouanenavong S., Wan K.H., Yu C., Lewis S.E., Rubin G.M.,
+RA   Celniker S.E.;
+RL   Submitted (JAN-2003) to the EMBL/GenBank/DDBJ databases.
+RN   [5]
+RP   FUNCTION, TISSUE SPECIFICITY, AND DEVELOPMENTAL STAGE.
+RX   PubMed=8104141;
+RA   Mahaffey J.W., Jones D.F., Hickel J.A., Griswold C.M.;
+RT   "Identification and characterization of a gene activated by the
+RT   deformed homeoprotein.";
+RL   Development 118:203-214(1993).
+CC   -!- FUNCTION: Deformed (Dfd) is required to activate 1.28up in
+CC       maxillary segment cells.
+CC   -!- INTERACTION:
+CC       Q9VGZ4:CG6325; NbExp=1; IntAct=EBI-163407, EBI-111903;
+CC       P25724:nos; NbExp=1; IntAct=EBI-163407, EBI-106556;
+CC       Q9V3H7:Sr-CI; NbExp=1; IntAct=EBI-163407, EBI-125222;
+CC   -!- TISSUE SPECIFICITY: Expressed in posterior-lateral epidermis of
+CC       the maxillary lobe.
+CC   -!- DEVELOPMENTAL STAGE: Expressed in embryos and adults.
+CC   -!- SIMILARITY: Belongs to the GTP1/OBG family.
+CC   --------------------------------------------------------------------------
+CC   This Swiss-Prot entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use as long as its content is in no way modified and this statement is not
+CC   removed.
+CC   --------------------------------------------------------------------------
+DR   EMBL; X71866; CAA50701.1; -; Genomic_DNA.
+DR   EMBL; AE003823; AAF58591.1; -; Genomic_DNA.
+DR   EMBL; AY069810; AAL39955.1; -; mRNA.
+DR   PIR; S42582; S42582.
+DR   HSSP; P20964; 1LNZ.
+DR   IntAct; P32234; -.
+DR   Ensembl; CG8340; Drosophila melanogaster.
+DR   FlyBase; FBgn0010339; 128up.
+DR   GO; GO:0005525; F:GTP binding; IDA.
+DR   GO; GO:0005515; F:protein binding; IPI.
+DR   InterPro; IPR006074; GTP1/OBG_dom.
+DR   InterPro; IPR006073; GTP1_OBG.
+DR   InterPro; IPR002917; MMR_HSR1_GTP_bd.
+DR   InterPro; IPR005225; Small_GTP_bd.
+DR   InterPro; IPR004095; TGS.
+DR   Pfam; PF01926; MMR_HSR1; 1.
+DR   Pfam; PF02824; TGS; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   TIGRFAMs; TIGR00231; small_GTP; 1.
+DR   PROSITE; PS00905; GTP1_OBG; 1.
+KW   GTP-binding; Nucleotide-binding.
+FT   NP_BIND      71     78       GTP (By similarity).
+FT   NP_BIND     117    121       GTP (By similarity).
+FT   NP_BIND     248    251       GTP (By similarity).
+FT   CONFLICT      2      2       S -> I (in Ref. 1).
+FT   CONFLICT     34     35       KL -> NV (in Ref. 1).
+SQ   SEQUENCE   368 AA;  41132 MW;  5B38B09D0C0A92F2 CRC64;
+     MSTILEKISA IESEMARTQK NKATSAHLGL LKAKLAKLRR ELISPKGGGG GTGEAGFEVA
+     KTGDARVGFV GFPSVGKSTL LSNLAGVYSE VAAYEFTTLT TVPGCIKYKG AKIQLLDLPG
+     IIEGAKDGKG RGRQVIAVAR TCNLIFMVLD CLKPLGHKKL LEHELEGFGI RLNKKPPNIY
+     YKRKDKGGIN LNSMVPQSEL DTDLVKTILS EYKIHNADIT LRYDATSDDL IDVIEGNRIY
+     IPCIYLLNKI DQISIEELDV IYKIPHCVPI SAHHHWNFDD LLELMWEYLR LQRIYTKPKG
+     QLPDYNSPVV LHNERTSIED FCNKLHRSIA KEFKYALVWG SSVKHQPQKV GIEHVLNDED
+     VVQIVKKV
+//
+ID   12AH_CLOS4     STANDARD;      PRT;    29 AA.
+AC   P21215;
+DT   01-AUG-1991 (Rel. 19, Created)
+DT   01-AUG-1991 (Rel. 19, Last sequence update)
+DT   10-MAY-2005 (Rel. 47, Last annotation update)
+DE   12-alpha-hydroxysteroid dehydrogenase (EC 1.1.1.176) (Fragment).
+OS   Clostridium sp. (strain C 48-50).
+OC   Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;
+OC   Clostridium.
+OX   NCBI_TaxID=1507;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RX   MEDLINE=91177018; PubMed=2007406;
+RA   Braun M., Luensdorf H., Bueckmann A.F.;
+RT   "12 alpha-hydroxysteroid dehydrogenase from Clostridium group P,
+RT   strain C 48-50. Production, purification and characterization.";
+RL   Eur. J. Biochem. 196:439-450(1991).
+CC   -!- FUNCTION: Catalyzes the oxidation of the 12-alpha-hydroxyl group
+CC       of bile acids, both in their free and conjugated form. Also acts
+CC       on bile alcohols.
+CC   -!- CATALYTIC ACTIVITY: 3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-
+CC       cholanate + NADP(+) = 3-alpha,7-alpha-dihydroxy-12-oxo-5-beta-
+CC       cholanate + NADPH.
+CC   -!- SUBUNIT: Homotetramer.
+CC   -!- MISCELLANEOUS: The thermostability of the enzyme is greatly
+CC       increased due to NADP binding.
+CC   --------------------------------------------------------------------------
+CC   This Swiss-Prot entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use as long as its content is in no way modified and this statement is not
+CC   removed.
+CC   --------------------------------------------------------------------------
+DR   PIR; S14099; S14099.
+KW   Bile acid catabolism; Direct protein sequencing; Lipid metabolism;
+KW   NADP; Oxidoreductase; Steroid metabolism.
+FT   NON_TER      29     29
+SQ   SEQUENCE   29 AA;  2900 MW;  A827DB34DB6C8812 CRC64;
+     MIFDGKVAII TGGGKAKSIG YGIAVAYAK
+//
+ID   12KD_FRAAN     STANDARD;      PRT;   111 AA.
+AC   Q05349;
+DT   01-OCT-1996 (Rel. 34, Created)
+DT   01-OCT-1996 (Rel. 34, Last sequence update)
+DT   24-JAN-2006 (Rel. 49, Last annotation update)
+DE   Auxin-repressed 12.5 kDa protein.
+OS   Fragaria ananassa (Strawberry).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; core eudicotyledons;
+OC   rosids; eurosids I; Rosales; Rosaceae; Rosoideae; Fragaria.
+OX   NCBI_TaxID=3747;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA].
+RC   STRAIN=cv. Ozark Beauty; TISSUE=Flower;
+RX   MEDLINE=91329668; PubMed=2101687;
+RA   Reddy A.S.N., Poovaiah B.W.;
+RT   "Molecular cloning and sequencing of a cDNA for an auxin-repressed
+RT   mRNA: correlation between fruit growth and repression of the auxin-
+RT   regulated gene.";
+RL   Plant Mol. Biol. 14:127-136(1990).
+CC   -!- INDUCTION: Repressed by exogenous auxin.
+CC   --------------------------------------------------------------------------
+CC   This Swiss-Prot entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use as long as its content is in no way modified and this statement is not
+CC   removed.
+CC   --------------------------------------------------------------------------
+DR   EMBL; X52429; CAA36676.1; -; mRNA.
+DR   EMBL; L44142; AAA73872.1; -; mRNA.
+DR   PIR; S11850; S11850.
+DR   InterPro; IPR008406; Auxin_repressed.
+DR   Pfam; PF05564; Auxin_repressed; 1.
+KW   Auxin signaling pathway.
+FT   COMPBIAS     43     57       Pro/Thr-rich.
+SQ   SEQUENCE   111 AA;  12416 MW;  E44CACBADE6F3C51 CRC64;
+     MVLLDKLWDD IVAGPQPERG LGMLRKVPQP LNLKDEGESS KITMPTTPTT PVTPTTPISA
+     RKDNVWRSVF HPGSNLSSKT MGNQVFDSPQ PNSPTVYDWM YSGETRSKHH R
+//
+ID   12KD_MYCSM     STANDARD;      PRT;    24 AA.
+AC   P80438;
+DT   01-NOV-1995 (Rel. 32, Created)
+DT   01-NOV-1995 (Rel. 32, Last sequence update)
+DT   05-JUL-2004 (Rel. 44, Last annotation update)
+DE   12 kDa protein (Fragment).
+OS   Mycobacterium smegmatis.
+OC   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales;
+OC   Corynebacterineae; Mycobacteriaceae; Mycobacterium.
+OX   NCBI_TaxID=1772;
+RN   [1]
+RP   PROTEIN SEQUENCE.
+RA   Pahl A., Keller U.;
+RL   Submitted (MAR-1995) to Swiss-Prot.
+CC   --------------------------------------------------------------------------
+CC   This Swiss-Prot entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use as long as its content is in no way modified and this statement is not
+CC   removed.
+CC   --------------------------------------------------------------------------
+KW   Direct protein sequencing.
+FT   NON_TER      24     24
+SQ   SEQUENCE   24 AA;  2766 MW;  0D19F1F488DB3201 CRC64;
+     MFHVLTLTYL CPLDVVXQTR PAHV
+//
+ID   12S1_ARATH     STANDARD;      PRT;   472 AA.
+AC   P15455; Q9FFH7;
+DT   01-APR-1990 (Rel. 14, Created)
+DT   28-FEB-2003 (Rel. 41, Last sequence update)
+DT   10-MAY-2005 (Rel. 47, Last annotation update)
+DE   12S seed storage protein CRA1 precursor [Contains: 12S seed storage
+DE   protein CRA1 alpha chain (12S seed storage protein CRA1 acidic chain);
+DE   12S seed storage protein CRA1 beta chain (12S seed storage protein
+DE   CRA1 basic chain)].
+GN   Name=CRA1; OrderedLocusNames=At5g44120; ORFNames=MLN1.4;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; core eudicotyledons;
+OC   rosids; eurosids II; Brassicales; Brassicaceae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=cv. Landsberg erecta;
+RA   Pang P.P., Pruitt R.E., Meyerowitz E.M.;
+RT   "Molecular cloning, genome organization, expression and evolution of
+RT   12S seed storage protein genes of Arabidopsis thaliana.";
+RL   Plant Mol. Biol. 11:805-820(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   MEDLINE=97471969; PubMed=9330910;
+RA   Sato S., Kotani H., Nakamura Y., Kaneko T., Asamizu E., Fukami M.,
+RA   Miyajima N., Tabata S.;
+RT   "Structural analysis of Arabidopsis thaliana chromosome 5. I. Sequence
+RT   features of the 1.6 Mb regions covered by twenty physically assigned
+RT   P1 clones.";
+RL   DNA Res. 4:215-230(1997).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=cv. Columbia;
+RX   MEDLINE=22954850; PubMed=14593172; DOI=10.1126/science.1088305;
+RA   Yamada K., Lim J., Dale J.M., Chen H., Shinn P., Palm C.J.,
+RA   Southwick A.M., Wu H.C., Kim C.J., Nguyen M., Pham P.K., Cheuk R.F.,
+RA   Karlin-Newmann G., Liu S.X., Lam B., Sakano H., Wu T., Yu G.,
+RA   Miranda M., Quach H.L., Tripp M., Chang C.H., Lee J.M., Toriumi M.J.,
+RA   Chan M.M., Tang C.C., Onodera C.S., Deng J.M., Akiyama K., Ansari Y.,
+RA   Arakawa T., Banh J., Banno F., Bowser L., Brooks S.Y., Carninci P.,
+RA   Chao Q., Choy N., Enju A., Goldsmith A.D., Gurjal M., Hansen N.F.,
+RA   Hayashizaki Y., Johnson-Hopson C., Hsuan V.W., Iida K., Karnes M.,
+RA   Khan S., Koesema E., Ishida J., Jiang P.X., Jones T., Kawai J.,
+RA   Kamiya A., Meyers C., Nakajima M., Narusaka M., Seki M., Sakurai T.,
+RA   Satou M., Tamse R., Vaysberg M., Wallender E.K., Wong C., Yamamura Y.,
+RA   Yuan S., Shinozaki K., Davis R.W., Theologis A., Ecker J.R.;
+RT   "Empirical analysis of transcriptional activity in the Arabidopsis
+RT   genome.";
+RL   Science 302:842-846(2003).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 420-472.
+RC   STRAIN=cv. Columbia; TISSUE=Green siliques;
+RX   MEDLINE=94108489; PubMed=8281187;
+RX   DOI=10.1046/j.1365-313X.1993.04061051.x;
+RA   Hoefte H., Desprez T., Amselem J., Chiapello H., Rouze P., Caboche M.,
+RA   Moisan A., Jourjon M.-F., Charpenteau J.-L., Berthomieu P.,
+RA   Guerrier D., Giraudat J., Quigley F., Thomas F., Yu D.-Y., Mache R.,
+RA   Raynal M., Cooke R., Grellet F., Delseny M., Parmentier Y.,
+RA   de Marcillac G., Gigot C., Fleck J., Philipps G., Axelos M.,
+RA   Bardet C., Tremousaygue D., Lescure B.;
+RT   "An inventory of 1152 expressed sequence tags obtained by partial
+RT   sequencing of cDNAs from Arabidopsis thaliana.";
+RL   Plant J. 4:1051-1061(1993).
+CC   -!- FUNCTION: This is a seed storage protein.
+CC   -!- SUBUNIT: Hexamer; each subunit is composed of an acidic and a
+CC       basic chain derived from a single precursor and linked by a
+CC       disulfide bond.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=1;
+CC         Comment=A number of isoforms are produced. According to EST
+CC         sequences;
+CC       Name=1;
+CC         IsoId=P15455-1; Sequence=Displayed;
+CC   -!- SIMILARITY: Belongs to the 11S seed storage protein (globulins)
+CC       family.
+CC   --------------------------------------------------------------------------
+CC   This Swiss-Prot entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use as long as its content is in no way modified and this statement is not
+CC   removed.
+CC   --------------------------------------------------------------------------
+DR   EMBL; M37247; AAA32777.1; -; Genomic_DNA.
+DR   EMBL; X14312; CAA32493.1; -; Genomic_DNA.
+DR   EMBL; AB005239; BAB10979.1; -; Genomic_DNA.
+DR   EMBL; AY070730; AAL50071.1; -; mRNA.
+DR   EMBL; Z17590; CAA79005.1; -; mRNA.
+DR   PIR; S08509; S08509.
+DR   HSSP; P04776; 1FXZ.
+DR   TAIR; At5g44120; -.
+DR   InterPro; IPR006045; Cupin.
+DR   InterPro; IPR006044; Seedstore_11s.
+DR   Pfam; PF00190; Cupin_1; 2.
+DR   PRINTS; PR00439; 11SGLOBULIN.
+DR   PROSITE; PS00305; 11S_SEED_STORAGE; 1.
+KW   Alternative splicing; Multigene family; Seed storage protein; Signal;
+KW   Storage protein.
+FT   SIGNAL        1     24       Potential.
+FT   CHAIN        25    282       12S seed storage protein CRA1 alpha chain
+FT                                (By similarity).
+FT                                /FTId=PRO_0000031999.
+FT   CHAIN       283    472       12S seed storage protein CRA1 beta chain
+FT                                (By similarity).
+FT                                /FTId=PRO_0000032000.
+FT   DISULFID    112    289       Interchain (between alpha and beta
+FT                                chains) (Potential).
+FT   CONFLICT    167    167       E -> Q (in Ref. 1).
+FT   CONFLICT    356    356       V -> E (in Ref. 1).
+SQ   SEQUENCE   472 AA;  52595 MW;  700B468E4D251994 CRC64;
+     MARVSSLLSF CLTLLILFHG YAAQQGQQGQ QFPNECQLDQ LNALEPSHVL KSEAGRIEVW
+     DHHAPQLRCS GVSFARYIIE SKGLYLPSFF NTAKLSFVAK GRGLMGKVIP GCAETFQDSS
+     EFQPRFEGQG QSQRFRDMHQ KVEHIRSGDT IATTPGVAQW FYNDGQEPLV IVSVFDLASH
+     QNQLDRNPRP FYLAGNNPQG QVWLQGREQQ PQKNIFNGFG PEVIAQALKI DLQTAQQLQN
+     QDDNRGNIVR VQGPFGVIRP PLRGQRPQEE EEEEGRHGRH GNGLEETICS ARCTDNLDDP
+     SRADVYKPQL GYISTLNSYD LPILRFIRLS ALRGSIRQNA MVLPQWNANA NAILYVTDGE
+     AQIQIVNDNG NRVFDGQVSQ GQLIAVPQGF SVVKRATSNR FQWVEFKTNA NAQINTLAGR
+     TSVLRGLPLE VITNGFQISP EEARRVKFNT LETTLTHSSG PASYGRPRVA AA
+//
+ID   12S2_ARATH     STANDARD;      PRT;   455 AA.
+AC   P15456; Q9SAW0;
+DT   01-APR-1990 (Rel. 14, Created)
+DT   28-FEB-2003 (Rel. 41, Last sequence update)
+DT   10-MAY-2005 (Rel. 47, Last annotation update)
+DE   12S seed storage protein CRB precursor [Contains: 12S seed storage
+DE   protein CRB alpha chain (12S seed storage protein CRB acidic chain);
+DE   12S seed storage protein CRB beta chain (12S seed storage protein CRB
+DE   basic chain)].
+GN   Name=CRB; OrderedLocusNames=At1g03880; ORFNames=F21M11.19;
+OS   Arabidopsis thaliana (Mouse-ear cress).
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliophyta; eudicotyledons; core eudicotyledons;
+OC   rosids; eurosids II; Brassicales; Brassicaceae; Arabidopsis.
+OX   NCBI_TaxID=3702;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=cv. Landsberg erecta;
+RA   Pang P.P., Pruitt R.E., Meyerowitz E.M.;
+RT   "Molecular cloning, genome organization, expression and evolution of
+RT   12S seed storage protein genes of Arabidopsis thaliana.";
+RL   Plant Mol. Biol. 11:805-820(1988).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=cv. Columbia;
+RX   MEDLINE=21016719; PubMed=11130712; DOI=10.1038/35048500;
+RA   Theologis A., Ecker J.R., Palm C.J., Federspiel N.A., Kaul S.,
+RA   White O., Alonso J., Altafi H., Araujo R., Bowman C.L., Brooks S.Y.,
+RA   Buehler E., Chan A., Chao Q., Chen H., Cheuk R.F., Chin C.W.,
+RA   Chung M.K., Conn L., Conway A.B., Conway A.R., Creasy T.H., Dewar K.,
+RA   Dunn P., Etgu P., Feldblyum T.V., Feng J.-D., Fong B., Fujii C.Y.,
+RA   Gill J.E., Goldsmith A.D., Haas B., Hansen N.F., Hughes B., Huizar L.,
+RA   Hunter J.L., Jenkins J., Johnson-Hopson C., Khan S., Khaykin E.,
+RA   Kim C.J., Koo H.L., Kremenetskaia I., Kurtz D.B., Kwan A., Lam B.,
+RA   Langin-Hooper S., Lee A., Lee J.M., Lenz C.A., Li J.H., Li Y.-P.,
+RA   Lin X., Liu S.X., Liu Z.A., Luros J.S., Maiti R., Marziali A.,
+RA   Militscher J., Miranda M., Nguyen M., Nierman W.C., Osborne B.I.,
+RA   Pai G., Peterson J., Pham P.K., Rizzo M., Rooney T., Rowley D.,
+RA   Sakano H., Salzberg S.L., Schwartz J.R., Shinn P., Southwick A.M.,
+RA   Sun H., Tallon L.J., Tambunga G., Toriumi M.J., Town C.D.,
+RA   Utterback T., Van Aken S., Vaysberg M., Vysotskaia V.S., Walker M.,
+RA   Wu D., Yu G., Fraser C.M., Venter J.C., Davis R.W.;
+RT   "Sequence and analysis of chromosome 1 of the plant Arabidopsis
+RT   thaliana.";
+RL   Nature 408:816-820(2000).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].
+RC   STRAIN=cv. Columbia;
+RX   MEDLINE=22954850; PubMed=14593172; DOI=10.1126/science.1088305;
+RA   Yamada K., Lim J., Dale J.M., Chen H., Shinn P., Palm C.J.,
+RA   Southwick A.M., Wu H.C., Kim C.J., Nguyen M., Pham P.K., Cheuk R.F.,
+RA   Karlin-Newmann G., Liu S.X., Lam B., Sakano H., Wu T., Yu G.,
+RA   Miranda M., Quach H.L., Tripp M., Chang C.H., Lee J.M., Toriumi M.J.,
+RA   Chan M.M., Tang C.C., Onodera C.S., Deng J.M., Akiyama K., Ansari Y.,
+RA   Arakawa T., Banh J., Banno F., Bowser L., Brooks S.Y., Carninci P.,
+RA   Chao Q., Choy N., Enju A., Goldsmith A.D., Gurjal M., Hansen N.F.,
+RA   Hayashizaki Y., Johnson-Hopson C., Hsuan V.W., Iida K., Karnes M.,
+RA   Khan S., Koesema E., Ishida J., Jiang P.X., Jones T., Kawai J.,
+RA   Kamiya A., Meyers C., Nakajima M., Narusaka M., Seki M., Sakurai T.,
+RA   Satou M., Tamse R., Vaysberg M., Wallender E.K., Wong C., Yamamura Y.,
+RA   Yuan S., Shinozaki K., Davis R.W., Theologis A., Ecker J.R.;
+RT   "Empirical analysis of transcriptional activity in the Arabidopsis
+RT   genome.";
+RL   Science 302:842-846(2003).
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 240-360.
+RC   STRAIN=cv. Columbia; TISSUE=Green siliques;
+RX   MEDLINE=94108489; PubMed=8281187;
+RX   DOI=10.1046/j.1365-313X.1993.04061051.x;
+RA   Hoefte H., Desprez T., Amselem J., Chiapello H., Rouze P., Caboche M.,
+RA   Moisan A., Jourjon M.-F., Charpenteau J.-L., Berthomieu P.,
+RA   Guerrier D., Giraudat J., Quigley F., Thomas F., Yu D.-Y., Mache R.,
+RA   Raynal M., Cooke R., Grellet F., Delseny M., Parmentier Y.,
+RA   de Marcillac G., Gigot C., Fleck J., Philipps G., Axelos M.,
+RA   Bardet C., Tremousaygue D., Lescure B.;
+RT   "An inventory of 1152 expressed sequence tags obtained by partial
+RT   sequencing of cDNAs from Arabidopsis thaliana.";
+RL   Plant J. 4:1051-1061(1993).
+CC   -!- FUNCTION: This is a seed storage protein.
+CC   -!- SUBUNIT: Hexamer; each subunit is composed of an acidic and a
+CC       basic chain derived from a single precursor and linked by a
+CC       disulfide bond.
+CC   -!- SIMILARITY: Belongs to the 11S seed storage protein (globulins)
+CC       family.
+CC   --------------------------------------------------------------------------
+CC   This Swiss-Prot entry is copyright. It is produced through a collaboration
+CC   between  the Swiss Institute of Bioinformatics  and the  EMBL outstation -
+CC   the European Bioinformatics Institute.  There are no  restrictions on  its
+CC   use as long as its content is in no way modified and this statement is not
+CC   removed.
+CC   --------------------------------------------------------------------------
+DR   EMBL; M37248; AAA32778.1; -; Genomic_DNA.
+DR   EMBL; X14313; CAA32494.1; -; Genomic_DNA.
+DR   EMBL; AC003027; AAD10680.1; -; Genomic_DNA.
+DR   EMBL; AY093005; AAM13004.1; -; mRNA.
+DR   EMBL; BT009682; AAP81800.1; -; mRNA.
+DR   EMBL; Z17654; CAA79024.1; -; mRNA.
+DR   PIR; E86169; E86169.
+DR   PIR; S08510; S08510.
+DR   HSSP; P04776; 1FXZ.
+DR   TAIR; At1g03880; -.
+DR   InterPro; IPR006045; Cupin.
+DR   InterPro; IPR007113; Cupin_region.
+DR   InterPro; IPR006044; Seedstore_11s.
+DR   Pfam; PF00190; Cupin_1; 2.
+DR   PRINTS; PR00439; 11SGLOBULIN.
+DR   PROSITE; PS00305; 11S_SEED_STORAGE; 1.
+KW   Multigene family; Seed storage protein; Signal; Storage protein.
+FT   SIGNAL        1     24       Potential.
+FT   CHAIN        25    269       12S seed storage protein CRB alpha chain
+FT                                (By similarity).
+FT                                /FTId=PRO_0000032001.
+FT   CHAIN       270    455       12S seed storage protein CRB beta chain
+FT                                (By similarity).
+FT                                /FTId=PRO_0000032002.
+FT   DISULFID    106    276       Interchain (between alpha and beta
+FT                                chains) (Potential).
+FT   CONFLICT    383    383       A -> R (in Ref. 1).
+SQ   SEQUENCE   455 AA;  50558 MW;  BE24BCBD2F69B538 CRC64;
+     MGRVSSIISF SLTLLILFNG YTAQQWPNEC QLDQLNALEP SQIIKSEGGR IEVWDHHAPQ
+     LRCSGFAFER FVIEPQGLFL PTFLNAGKLT FVVHGRGLMG RVIPGCAETF MESPVFGEGQ
+     GQGQSQGFRD MHQKVEHLRC GDTIATPSGV AQWFYNNGNE PLILVAAADL ASNQNQLDRN
+     LRPFLIAGNN PQGQEWLQGR KQQKQNNIFN GFAPEILAQA FKINVETAQQ LQNQQDNRGN
+     IVKVNGPFGV IRPPLRRGEG GQQPHEIANG LEETLCTMRC TENLDDPSDA DVYKPSLGYI
+     STLNSYNLPI LRLLRLSALR GSIRKNAMVL PQWNVNANAA LYVTNGKAHI QMVNDNGERV
+     FDQEISSGQL LVVPQGFSVM KHAIGEQFEW IEFKTNENAQ VNTLAGRTSV MRGLPLEVIT
+     NGYQISPEEA KRVKFSTIET TLTHSSPMSY GRPRA
+//

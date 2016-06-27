@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   revision="2"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/master/trunk/src"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   kind="dir"
+   name=""
+   committed-rev="1"/>
+<entry
+   kind="dir"
+   name="pku"/>
+</wc-entries>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: Ying Sun
+Main-Class: pku.cbi.abcgrid.user.UserMain
+Class-Path: . commons-io-1.2.jar commons-beanutils.jar
+
+
+
+
+

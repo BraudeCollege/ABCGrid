@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Created-By: Ying Sun
+Main-Class: pku.cbi.abcgrid.master.GridMain
+Class-Path: . commons-digester.jar commons-io-1.2.jar commons-logging-1.1.jar commons-beanutils.jar biojava-1.4.jar
+

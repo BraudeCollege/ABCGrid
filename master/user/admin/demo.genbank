@@ -1,0 +1,966 @@
+GBVRT1.SEQ           Genetic Sequence Data Bank
+                           August 15 2006
+
+                NCBI-GenBank Flat File Release 155.0
+
+                     Other Vertebrate Sequences (Part 1)
+
+   26978 loci,   151805902 bases, from    26978 reported sequences
+
+
+LOCUS       AA12SRRNA                386 bp    DNA     linear   VRT 09-SEP-2004
+DEFINITION  A.australis mitochondrial gene for 12S ribosomal RNA.
+ACCESSION   X67626
+VERSION     X67626.1  GI:11186
+KEYWORDS    12S ribosomal RNA.
+SOURCE      mitochondrion Apteryx australis (brown kiwi)
+  ORGANISM  Apteryx australis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Palaeognathae; Apterygiformes; Apterygidae;
+            Apteryx.
+REFERENCE   1  (bases 1 to 386)
+  AUTHORS   Cooper,A., Mourer-Chauvire,C., Chambers,G.K., von Haeseler,A.,
+            Wilson,A.C. and Paabo,S.
+  TITLE     Independent origins of New Zealand moas and kiwis
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 89 (18), 8741-8744 (1992)
+   PUBMED   1528888
+REFERENCE   2  (bases 1 to 386)
+  AUTHORS   Paeaebo,S.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-AUG-1992) S.E. Paeaebo, Dept of Zoology, University
+            of Munich, Luisenstr 14, 8000 Muenchen 2, FRG
+FEATURES             Location/Qualifiers
+     source          1..386
+                     /organism="Apteryx australis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:8822"
+     gene            1..386
+                     /gene="12S rRNA"
+     rRNA            <1..>386
+                     /gene="12S rRNA"
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 gcttagccct aaatcctggt gcttgcatta cccaagtacc cgcccgagaa ctacgagcac
+       61 aaacgcttaa aactctaagg acttggcggt gccctaaacc cacctagagg agcctgttct
+      121 ataatcgata acccacgata cacccaacca tctcttgcca acacagccta cataccgccg
+      181 tcgccagccc gcctaaaatg aaagagcagc gagcacaaca gctacaccag ctaacaagac
+      241 aggtcaaggt atagcccacg agatgggaga aatgggctac attttctaaa atagaatact
+      301 acgaaaaagg gtatgaaatc ccccttagaa ggaggattta gcagtaaaac agaataagaa
+      361 agtctatttt aagccggccc tagggc
+//
+LOCUS       AAA005503               1794 bp    mRNA    linear   VRT 15-APR-2005
+DEFINITION  Acrocephalus arundinaceus mRNA for MHC class I chain (clone cN3).
+ACCESSION   AJ005503
+VERSION     AJ005503.1  GI:4185616
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 1794)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..1794
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39621"
+                     /clone="cN3"
+                     /tissue_type="liver"
+     5'UTR           <1..20
+     CDS             21..1103
+                     /codon_start=1
+                     /product="MHC class I antigen"
+                     /protein_id="CAA06560.1"
+                     /db_xref="GI:4185617"
+                     /db_xref="GOA:O98187"
+                     /db_xref="InterPro:IPR001039"
+                     /db_xref="InterPro:IPR003006"
+                     /db_xref="InterPro:IPR003597"
+                     /db_xref="InterPro:IPR007110"
+                     /db_xref="UniProtKB/TrEMBL:O98187"
+                     /translation="MAAALGLGAILGLLGLLGEPGGATRVLHSLHYLDVAVSEPSPGI
+                     PQFVAMGFVDGIPFTRYDSERGRMEPLTEWIKDSADPEYWDSQTQIGVGSQHVYARSL
+                     ETLRERYNQSGGLHTVLRVYGCELLSDGSVRGSERFGYDGRDFISFDLESGRFMAADS
+                     AAEITRRRWEHEGIVAERQTNYLKHECPEWLQKYVGYGQKELERKEPPDVHVSGKEEH
+                     GTLILSCHAYGFYPKTIAVNWMKGDEIWDQETEWGGVVPNSDGTFHTWARIEALPEER
+                     EQYRCRVEHPGMPEPGIFAWEPTSGRNLTVVVAVSVITAILILIALTGFILWKLQSGR
+                     RDRDGYNMAAGKDLVTNGSTTARITA"
+     3'UTR           1104..1794
+ORIGIN      
+        1 ggccgcagcg gagcagcgcc atggctgcag cgctggggct gggggcgatc ttggggctcc
+       61 tggggctcct gggggagccg gggggcgcga cgagagttct ccactccctg cattacctgg
+      121 atgtggcggt gtcagagccc agcccgggga tcccccagtt cgtggccatg gggtttgtgg
+      181 atgggatccc cttcacgcgc tacgacagcg agcggggccg gatggagcca ctgacggagt
+      241 ggataaaaga ttcagctgac ccagaatatt gggatagcca gacccagatc ggtgtgggga
+      301 gccagcacgt gtatgccagg agcctggaga ctctgcggga gcggtacaac cagagtgggg
+      361 gtctccacac agtgttgcga gtttacggct gtgagctcct gtccgacggg agcgtccgtg
+      421 gttctgaacg gttcggctac gacgggcggg atttcatctc ctttgacctg gaatccggga
+      481 gattcatggc ggccgacagc gctgctgaga tcaccaggag gcgctgggaa catgaaggga
+      541 tcgtggctga gagacagacg aattacctga agcacgagtg cccggaatgg cttcagaaat
+      601 acgtcggata cgggcagaag gagctagagc gcaaagagcc ccctgatgtc catgtgtctg
+      661 gaaaagagga acacgggacg ctgatcttgt cctgccacgc gtacggattc taccccaaga
+      721 ccatcgccgt caactggatg aagggggatg aaatctggga tcaggagacg gagtggggcg
+      781 gggtcgttcc caacagcgac ggcaccttcc acacctgggc caggatcgag gcgctgccgg
+      841 aggagcggga gcagtaccgg tgccgggtgg agcatcccgg aatgccggag cccgggatct
+      901 tcgcttggga gccgacatct ggcaggaatc tcaccgtggt ggtcgctgtg tccgtcatca
+      961 ctgccatcct catcctcatt gccctcactg gattcatcct ctggaagctc caatccggga
+     1021 ggagggacag ggatggatac aacatggcag ccggaaaaga cttggtcacc aacggctcga
+     1081 ccacagcaag aatcactgcc tgagcgatcc atggagctgg atccagcccc ttcctcttcc
+     1141 tgggaaagcc gagagctgcc agcagagctc atcccgctgc tcccacccac cccacagctc
+     1201 ttgctaacgg atcaatttcc ccattttcca atgtattgga aaagatattc ccaatgcttt
+     1261 atttctggtc tgaaatgatc ctgcttgggg caataaatcc tgcttgggac aataaatcct
+     1321 gcttggggca atggagggtt tagggttatc attgcaaaag tgtttgaggc tcactctcac
+     1381 cagaaggccc cataggaaag gcacagctgc aggccggatg gttggaggtc gggtgagggg
+     1441 tgagaggcag ttgggagtga ggagagaggc ggtggagtga cagctgggag tgagattgtg
+     1501 attggctgga gggacacatg gacagagtgt gagcagaaca gtgattggct ggagggacac
+     1561 atggacagag tgtgagcaga acggtgattg gctggaggga cacatggaca gagtgtgagc
+     1621 agaacggtga ttggttggta ggatgcatgg acagcagcac tgccatgcca gccaatgggt
+     1681 gccttctttt tcttaagttc tgttatgtct cagtttgctt tcagttattt caggtggaaa
+     1741 ttaaaggcat aaaaagggtg caatttctgc aataaactga tctgctttgg acgc
+//
+LOCUS       AAA005504               1305 bp    mRNA    linear   VRT 15-APR-2005
+DEFINITION  Acrocephalus arundinaceus mRNA for MHC class I chain (clone
+            cN5-14).
+ACCESSION   AJ005504
+VERSION     AJ005504.1  GI:4185618
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1  (bases 1 to 1305)
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 1305)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..1305
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39621"
+                     /clone="cN5-14"
+                     /tissue_type="liver"
+     5'UTR           <1..12
+     CDS             13..1095
+                     /codon_start=1
+                     /product="MHC class I antigen"
+                     /protein_id="CAA06561.1"
+                     /db_xref="GI:4185619"
+                     /db_xref="GOA:O98188"
+                     /db_xref="InterPro:IPR001039"
+                     /db_xref="InterPro:IPR003006"
+                     /db_xref="InterPro:IPR003597"
+                     /db_xref="InterPro:IPR007110"
+                     /db_xref="UniProtKB/TrEMBL:O98188"
+                     /translation="MAAALGLGAILGLLGLLGEPGGATRVLHSLHYLDVAVSEPSPGI
+                     PQFVAMGFVDGIPFVRYDSERGRVEPLTEWIKDSADPEYWDRNTQINVGNQHWYARSL
+                     ETLRDRYNQSGGLHTVLRVIGCELLSDGSVRGSERFGYDGRDFISFDLESGRFMAADS
+                     AAEITRRRWEHEGIVAERQTNYLKHVCPEWLQRHVRYGQKELERKEPPDVHVSGKEEH
+                     GTLILSCHAYGFYPKTIAVNWMKGDEIWDQETEWGGVVPNSDGTFHTWARIEALPEER
+                     EQYRCRVEHPGMPEPGIFAWEPTSGRNLTVVVAVSVIAAILILIALTGFILWKLQSRR
+                     RDRDGYNMAAGKDLVTNGSTTARITA"
+     3'UTR           1096..1305
+ORIGIN      
+        1 cggagcagcg ccatggctgc agcgctgggg ctgggggcga tcttggggct cctggggctc
+       61 ctgggggagc cggggggcgc gacgagagtt ctccactccc tgcattacct ggatgtggcg
+      121 gtgtcagagc ccagcccggg gatcccccag ttcgtggcca tggggtttgt ggatgggatc
+      181 ccctttgtgc gctacgacag cgagcggggc cgggtggagc cgctgacgga atggataaaa
+      241 gattcagctg acccagaata ttgggatagg aacacccaga tcaatgtggg gaaccagcac
+      301 tggtatgcca ggagcctgga gacactgcgg gaccggtaca accagagcgg gggtctccac
+      361 acagtgttgc gagttatcgg ctgtgagctc ctgtccgacg ggagcgtccg tggttctgaa
+      421 cggttcggct acgacgggcg ggatttcatc tcctttgacc tggaatccgg gagattcatg
+      481 gcggccgaca gcgctgctga gatcaccagg aggcgctggg aacatgaagg gatcgtggct
+      541 gagagacaga cgaattacct gaagcacgtc tgccctgaat ggctccagag acacgtcaga
+      601 tacgggcaga aggagctgga gcgcaaagag ccccctgatg tccatgtgtc tggaaaagag
+      661 gaacacggga cgctgatctt gtcctgccac gcgtacggat tctaccccaa gaccatcgcc
+      721 gtcaactgga tgaaggggga tgaaatctgg gatcaggaga cggagtgggg cggggtcgtt
+      781 cccaacagcg acggcacctt ccacacctgg gccaggatcg aggcgctgcc ggaggagcgg
+      841 gagcagtacc ggtgccgggt ggagcatccc ggaatgccgg agcccgggat cttcgcttgg
+      901 gagccgacat ctggcaggaa tctcaccgtg gtggtcgctg tgtccgtcat cgctgccatc
+      961 ctcatcctca ttgccctcac tggattcatc ctctggaagc tccaatccag gaggagggac
+     1021 agggatggat acaacatggc agccggaaaa gacttggtca ccaacggctc gaccacagca
+     1081 agaatcactg cctgagcgat ccatggagct ggatccagcc ccttcctctt cctgggaaag
+     1141 ccgagagctg ccagcagagc tcatcccgct gctcccaccc accccacagc tcttgctaac
+     1201 ggatcaattt ccccattttc caatgtattg gaaaagatat tcccaatgct ttatttctgg
+     1261 tctgaaatga tcctgcttgg ggcaataaat cctgcttggg acaat
+//
+LOCUS       AAA005505               1481 bp    mRNA    linear   VRT 15-APR-2005
+DEFINITION  Acrocephalus arundinaceus mRNA for MHC class I chain (clone cN15).
+ACCESSION   AJ005505
+VERSION     AJ005505.1  GI:4185620
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1  (bases 1 to 1481)
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 1481)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..1481
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39621"
+                     /clone="cN15"
+                     /tissue_type="liver"
+     5'UTR           <1..19
+     CDS             20..1099
+                     /codon_start=1
+                     /product="MHC class I antigen"
+                     /protein_id="CAA06562.1"
+                     /db_xref="GI:4185621"
+                     /db_xref="GOA:O98189"
+                     /db_xref="InterPro:IPR001039"
+                     /db_xref="InterPro:IPR003006"
+                     /db_xref="InterPro:IPR003597"
+                     /db_xref="InterPro:IPR007110"
+                     /db_xref="UniProtKB/TrEMBL:O98189"
+                     /translation="MAAALGLGVILGLLGLLGEPGGAARVLHSLHYLSVGVSEPSPGI
+                     PQFVSMGFVDGIPFTRYDSERGRVEPLTEWIKDSADPEYWDRNTQINVGNQHVNARNL
+                     ETLRERYNQSGGLHTWLRVIGCDLLSDGSVRGTYRNGYDGRDFISFELGSGRFVPADS
+                     AAEITRRRWEHEGIEAERKTNYLKHECPEWLQRHVRYGQKELERKEPPDVHVSGKEEH
+                     GTLILSCHVYGFYPKTIAVSWMKGDEIWDQETEWGGVVPNSDGTFHTWARIEALPEER
+                     EQYRCQVEHPGMPEPGIFAWEPTSGGNLTVVVAVSVITAILILIALTGFILWKRQSGR
+                     RDRDGYNMAAGRDTGTKGSTAGITA"
+     3'UTR           1100..1481
+ORIGIN      
+        1 gccgcagcgg agcagcgcca tggctgcagc gctggggctg ggggtgatct tggggctcct
+       61 ggggctcctg ggggagccgg ggggcgcggc gagagttctc cactccctgc attacctgag
+      121 tgtgggggtg tcagagccca gcccggggat cccccagttc gtgtccatgg ggtttgtgga
+      181 tgggatcccc ttcacacgct acgacagcga gcggggccgg gtggagccgc tgacggagtg
+      241 gataaaggat tcagctgacc cagaatattg ggataggaac acccagatca atgtggggaa
+      301 ccagcacgtg aatgccagga acctggagac tctgcgggag cggtacaacc agagcggggg
+      361 tctccacaca tggttgcgag ttatcggctg tgacctcctg tccgacggga gtgtccgtgg
+      421 aacctaccgg aatggctacg acgggcggga tttcatctcc ttcgagctgg gatccgggag
+      481 attcgtgccg gccgacagcg ctgctgagat caccaggagg cgctgggaac atgaagggat
+      541 cgaggctgag aggaagacga attacctgaa gcacgagtgc ccggaatggc tccagagaca
+      601 cgtcagatac gggcagaagg agctggagcg caaagagccc cctgatgtcc atgtgtctgg
+      661 aaaagaggaa cacgggacgc tgatcttgtc ctgccacgtg tacggattct accccaagac
+      721 catcgccgtc agctggatga agggggatga aatctgggat caggagacgg agtggggcgg
+      781 ggtcgttccc aacagcgacg gcaccttcca cacctgggcc aggatcgagg cgctgccgga
+      841 ggagcgggag cagtaccggt gccaggtgga gcatcccgga atgccggagc ccgggatctt
+      901 cgcttgggag ccgacatctg gcgggaatct caccgtggtg gtcgctgtgt ccgtcatcac
+      961 tgccatcctc atcctcattg ccctcactgg attcatcctc tggaagcgcc aatccgggag
+     1021 gagggacagg gatggataca acatggcagc cggaagggac acgggaacca agggctcgac
+     1081 tgcaggaatc actgcctgag cgatccacgg agctggatcc agccccttcc tcttcctggg
+     1141 aaagccgaga gctgtagagg aatttcttag agagcagggg catgatttgt tatgggatgt
+     1201 agcctgagct atcctaaact aggcctcagg ttggggcctg aattaggcct cagagttagg
+     1261 ccttgttagt agtgagcaag cttgtggcgc agttagaaat tatattaagg tgtgcttgga
+     1321 tttaattaat gtagttttag taattttacc gtggtgacct taaagttaag attgcttaca
+     1381 ttccttttta atctagtacc aattagaaaa cacctgttca cataaactat ctgagactgt
+     1441 atataaacca ccattttgaa gcaataaaca gagaacatat g
+//
+LOCUS       AAA005506               1360 bp    mRNA    linear   VRT 15-APR-2005
+DEFINITION  Acrocephalus arundinaceus mRNA for MHC class I chain (clone cN1),
+            partial.
+ACCESSION   AJ005506
+VERSION     AJ005506.1  GI:4185622
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1  (bases 1 to 1360)
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 1360)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..1360
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39621"
+                     /clone="cN1"
+                     /tissue_type="liver"
+     CDS             <1..970
+                     /codon_start=2
+                     /product="MHC class I antigen"
+                     /protein_id="CAA06563.1"
+                     /db_xref="GI:4185623"
+                     /db_xref="GOA:O98190"
+                     /db_xref="InterPro:IPR001039"
+                     /db_xref="InterPro:IPR003006"
+                     /db_xref="InterPro:IPR003597"
+                     /db_xref="InterPro:IPR007110"
+                     /db_xref="UniProtKB/TrEMBL:O98190"
+                     /translation="EPSPGIPQFVSMGFVDGIPFTRYDSERGRMEPLTEWIKDSADPE
+                     YWDRNTQINVGNQHVYARDLETLRERYNQSGGLHTWLRVIGCDLLSDGSVRGTYRNGY
+                     DGRDFISFELGSGRFVPADSAAEITRRRWEHEGIEAERKTNYLKHECPEWLQRHVRYG
+                     QKELERKEPPDVHVSGKEEHGTLILSCHVYGFYPKTIAVSWMKGDEIWDQETEWGGVV
+                     PNSDGTFHTWARIEALPEEREQYRCQVEHPGMPEPGIFAWEPTSGGNLTVVVAVSVIT
+                     AILILIALTGFILWKRQSGRRDRDGYNMAAGRDTGTKGSTAAGITA"
+     3'UTR           971..1360
+ORIGIN      
+        1 agagcccagc ccggggatcc cccagttcgt gtccatgggg tttgtggatg ggatcccctt
+       61 cacgcgctac gacagcgagc ggggccggat ggagccgctg acggagtgga taaaggattc
+      121 agctgaccca gaatattggg ataggaacac ccagatcaat gtggggaacc agcatgtgta
+      181 tgccagggac ctggagactc tgcgggagcg gtacaaccag agtgggggtc tccacacatg
+      241 gttgcgagtt atcggctgtg acctcctgtc cgacgggagt gtccgtggaa cctaccggaa
+      301 tggctacgac gggcgggatt tcatctcctt cgagctggga tccgggagat tcgtgccggc
+      361 cgacagcgct gctgagatca ccaggaggcg ctgggaacat gaagggatcg aggctgagag
+      421 gaagacgaat tacctgaagc acgagtgccc ggaatggctc cagagacacg tcagatacgg
+      481 gcagaaggag ctggagcgca aagagccccc tgatgtccat gtgtctggaa aagaggaaca
+      541 cgggacgctg atcttgtcct gccacgtgta cggattctac cccaagacca tcgccgtcag
+      601 ctggatgaag ggggatgaaa tctgggatca ggagacggag tggggcgggg tcgttcccaa
+      661 cagcgacggc accttccaca cctgggccag gatcgaggcg ctgccggagg agcgggagca
+      721 gtaccggtgc caggtggagc atcccggaat gccggagccc gggatcttcg cttgggagcc
+      781 gacatctggc gggaatctca ccgtggtggt cgctgtgtcc gtcatcactg ccatcctcat
+      841 cctcattgcc ctcactggat tcatcctctg gaagcgccaa tccgggagga gggacaggga
+      901 tggatacaac atggcagccg gaagggacac gggaaccaag ggctcgactg cagcaggaat
+      961 cactgcctga gcgatccacg gagctggatc cagccccttc ctcttcctgg gaaagccgag
+     1021 agctgtagag gaatttctta gagagcaggg gcatgatttg ttatgggatg tagcctgagc
+     1081 tatcctaaac taggcctcag gttggggcct gaattaggcc tcagagttag gccttgttag
+     1141 tagtgagcaa gcttgtggcg cagttagaaa ttatattaag gtgtgcttgg atttaattaa
+     1201 tgtagtttta gtaattttac cgtggtgacc ttaaagttaa gattgcttac attccttttt
+     1261 aatctagtac caattagaaa acacctgttc acataaacta tctgagactg tatataaacc
+     1321 accattttga agcaataaac agagaacata tgatataacc
+//
+LOCUS       AAA005507               1311 bp    mRNA    linear   VRT 15-APR-2005
+DEFINITION  Acrocephalus arundinaceus mRNA for MHC class I chain (clone cN2).
+ACCESSION   AJ005507
+VERSION     AJ005507.1  GI:4185624
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1  (bases 1 to 1311)
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 1311)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..1311
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39621"
+                     /clone="cN2"
+                     /tissue_type="liver"
+     5'UTR           <1..21
+     CDS             22..1104
+                     /codon_start=1
+                     /product="MHC class I antigen"
+                     /protein_id="CAA06564.1"
+                     /db_xref="GI:4185625"
+                     /db_xref="GOA:O98191"
+                     /db_xref="InterPro:IPR001039"
+                     /db_xref="InterPro:IPR003006"
+                     /db_xref="InterPro:IPR003597"
+                     /db_xref="InterPro:IPR007110"
+                     /db_xref="UniProtKB/TrEMBL:O98191"
+                     /translation="MAAALGLGAILGLLGLLGEPGGATRVLHSLHYLDVAVSEPSPGI
+                     PQFMEMGFVDGIPFVRYDSERGRMEPLTEWVKDSADPEYWDRNTQNAVQNQHVDARNL
+                     EILRERYNQSGGLHTRLRVYGCELLSDGSVRGSYRNGYDGRDFIFFKLGSRRFVAADS
+                     AAEITRRRWEHEGTPAEHWTNYLKHECPEWLRKYVGYGRKELERNEPPDVHVSGKEEH
+                     GTLILSCHAYGFYPNTIAVSWMKGDEIWDQETEWGGVVPNSDGTFHTWARIEALPEEQ
+                     EQYRCRVEHPGMPEPGIFAWEPTSGRNLTVVVAVSVITAILILVALTGFILWKLQSGR
+                     RDRDGYNMAAGRDMGTKGSTAAGITA"
+     3'UTR           1105..1311
+ORIGIN      
+        1 gggtcgcatc ggagcagcgc catggctgca gcgctggggc tgggggcgat cttggggctc
+       61 ctggggcttc ttggggagcc ggggggcgcg acgagagttc tccactccct gcattacctg
+      121 gatgtggcgg tgtcagagcc cagcccgggg atcccccagt tcatggaaat ggggtttgtg
+      181 gatgggatcc cctttgtgcg ctacgacagc gagcggggcc ggatggagcc gctgacggag
+      241 tgggtaaagg attcagctga cccagaatat tgggatagga acacccagaa tgctgtgcag
+      301 aaccagcacg tggatgccag gaaccttgag atactgcggg agcggtacaa ccagagtggg
+      361 ggtctccaca cacggttgcg agtttacggc tgtgagctcc tgtccgacgg gagcgtccgt
+      421 ggatcctacc ggaatggcta cgacgggcgg gatttcatct tcttcaagct gggatccagg
+      481 agatttgtgg cggccgacag cgctgctgag atcaccagga ggcgctggga acatgaaggg
+      541 accccggctg agcattggac gaattacctg aagcatgagt gcccggaatg gctccggaaa
+      601 tacgtcggat acgggcggaa ggagctggag cgcaacgagc cccctgatgt ccatgtgtcc
+      661 ggaaaagagg aacacgggac gctgatcttg tcctgccacg cgtacggatt ctaccccaac
+      721 accatcgccg tcagctggat gaagggggat gaaatctggg atcaggagac ggagtggggc
+      781 ggggtcgttc ccaacagcga cggcaccttc cacacctggg ccaggatcga ggcgctgccg
+      841 gaggagcagg agcagtaccg gtgccgggtg gagcatcccg gaatgccaga gcccgggatc
+      901 ttcgcttggg agccgacatc tggcaggaat ctcaccgtgg tggtcgctgt gtccgtcatc
+      961 actgccatcc tcatcctcgt tgccctcact ggattcatcc tctggaagct ccaatccggg
+     1021 aggagggaca gggatggata caacatggca gccggaaggg acatgggaac caagggctcg
+     1081 actgcagcag gaatcactgc ctgagcgatc cacggagctg gatccagccc cttcctcttc
+     1141 ctgggaaagc cgagagctgc cagcagagct catcccgctg ctcccaccca ctccacaggt
+     1201 tttgctaacg gatcaatttc ccattttaca atatcttaaa gccaagatat tcccaatgca
+     1261 ttagttctgg tgtgaaatta ccccctttgg gcaataaatc caggttccct c
+//
+LOCUS       AAA005508               1309 bp    mRNA    linear   VRT 15-APR-2005
+DEFINITION  Acrocephalus arundinaceus mRNA for MHC class I chain (clone cN19).
+ACCESSION   AJ005508
+VERSION     AJ005508.1  GI:4185820
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1  (bases 1 to 1309)
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 1309)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..1309
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39621"
+                     /clone="cN19"
+                     /tissue_type="liver"
+     5'UTR           <1..19
+     CDS             20..1099
+                     /codon_start=1
+                     /product="MHC class I antigen"
+                     /protein_id="CAA06565.1"
+                     /db_xref="GI:4185821"
+                     /db_xref="GOA:O98192"
+                     /db_xref="InterPro:IPR001039"
+                     /db_xref="InterPro:IPR003006"
+                     /db_xref="InterPro:IPR003597"
+                     /db_xref="InterPro:IPR007110"
+                     /db_xref="UniProtKB/TrEMBL:O98192"
+                     /translation="MAAALGLGAILGLLGLLGEPGGATRVLHSLHYLDVAVSEPSPGI
+                     PQFMEMGFVDGIPFVRYDSERGRMEPLTEWVKDSADPEYWDRNTQNAVQNQHVDARNL
+                     EILRERYNQSGGLHTRLRVYGCELLSDGSVRGSYRNGYDGRDFIFFKLGSRRFVAADS
+                     AAEITRRRWEHEGTPAEHWTNYLKHECPEWLRKYVGYGRKELERNEPPDVHVSGKEEH
+                     GTLILSCHAYGFYPNTIAVSWMKGDEIWDQETEWGGVVPNSDGTFHTWARIEALPEEQ
+                     EQYRCRVEHPGMPEPGIFAWEPTSGRNLTVVVAVSVITAILILVALTGFILWKLQSGR
+                     RDRDGYNMAAGRDMGTKGSTAGITA"
+     3'UTR           1100..1309
+ORIGIN      
+        1 gtcgcatcgg agcagcgcca tggctgcagc gctggggctg ggggcgatct tggggctcct
+       61 ggggcttctt ggggagccgg ggggcgcgac gagagttctc cactccctgc attacctgga
+      121 tgtggcggtg tcagagccca gcccggggat cccccagttc atggaaatgg ggtttgtgga
+      181 tgggatcccc tttgtgcgct acgacagcga gcggggccgg atggagccgc tgacggagtg
+      241 ggtaaaggat tcagctgacc cagaatattg ggataggaac acccagaatg ctgtgcagaa
+      301 ccagcacgtg gatgccagga accttgagat actgcgggag cggtacaacc agagtggggg
+      361 tctccacaca cggttgcgag tttacggctg tgagctcctg tccgacggga gcgtccgtgg
+      421 atcctaccgg aatggctacg acgggcggga tttcatcttc ttcaagctgg gatccaggag
+      481 atttgtggcg gccgacagcg ctgctgagat caccaggagg cgctgggaac atgaagggac
+      541 cccggctgag cattggacga attacctgaa gcatgagtgc ccggaatggc tccggaaata
+      601 cgtcggatac gggcggaagg agctggagcg caacgagccc cctgatgtcc atgtgtccgg
+      661 aaaagaggaa cacgggacgc tgatcttgtc ctgccacgcg tacggattct accccaacac
+      721 catcgccgtc agctggatga agggggatga aatctgggat caggagacgg agtggggcgg
+      781 ggtcgttccc aacagcgacg gcaccttcca cacctgggcc aggatcgagg cgctgccgga
+      841 ggagcaggag cagtaccggt gccgggtgga gcatcccgga atgccagagc ccgggatctt
+      901 cgcttgggag ccgacatctg gcaggaatct caccgtggtg gtcgctgtgt ccgtcatcac
+      961 tgccatcctc atcctcgttg ccctcactgg attcatcctc tggaagctcc aatccgggag
+     1021 gagggacagg gatggataca acatggcagc cggaagggac atgggaacca agggctcgac
+     1081 tgcaggaatc actgcctgag cgatccacgg agctggatcc agccccttcc tcttcctggg
+     1141 aaagccgaga gctgccagca gagctcatcc cgctgctccc acccactcca caggttttgc
+     1201 taacggatca atttcccatt ttacaatatc ttaaagccaa gatattccca atgcattagt
+     1261 tctggtgtga aattaccccc tttgggcaat aaatccaggt tccctcttc
+//
+LOCUS       AAA005509               2215 bp    mRNA    linear   VRT 15-APR-2005
+DEFINITION  Acrocephalus arundinaceus mRNA for MHC class I chain (clone cN20).
+ACCESSION   AJ005509
+VERSION     AJ005509.1  GI:4185822
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1  (bases 1 to 2215)
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 2215)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..2215
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39621"
+                     /clone="cN20"
+                     /tissue_type="liver"
+     5'UTR           <1..18
+     CDS             19..1098
+                     /codon_start=1
+                     /product="MHC class I antigen"
+                     /protein_id="CAA06566.1"
+                     /db_xref="GI:4185823"
+                     /db_xref="GOA:O98193"
+                     /db_xref="InterPro:IPR001039"
+                     /db_xref="InterPro:IPR003006"
+                     /db_xref="InterPro:IPR003597"
+                     /db_xref="InterPro:IPR007110"
+                     /db_xref="UniProtKB/TrEMBL:O98193"
+                     /translation="MAAALGLGVILGLLGLLGEPGSAARVLHSLHYLSVGVSEPSPGI
+                     PQFMEMGFVDGIPFVRYDSERGRMEPLTEWIKDSADPGYWDRNTQNAVGSQHVTARNL
+                     EILRERYNQSGGLHTVLRVSGCELLSDGSVRGSERHGYDGRDFISFDLESGRFVAADS
+                     AAEITRRHWEHEGIVAERKTNYLKHECPEWLQRHVRYGQKELEHKEPLDVHVSGKEEH
+                     GTLILSCHAYGFYPKTIAVSWMKGDEIWDQETEWGGVVPNSDGTFHTWARIEALPEER
+                     EQYRCRVEHPGMPEPGIFAWEPTSGRNLTVVVAVSVIAAILILTALTGFILWKRQSGR
+                     RGRDGYNMAAGRDMGTKGSTAGITA"
+     3'UTR           1099..2215
+ORIGIN      
+        1 ccgcagcgga gcagcgccat ggctgcagcg ctggggctgg gggtgatctt ggggctcttg
+       61 gggctcctgg gggagccggg gagcgcggcg agagttctcc actccctgca ttacctgagt
+      121 gtgggggtgt cagagcccag cccggggatc ccccagttca tggaaatggg gtttgtggac
+      181 gggatcccct ttgtgcgcta cgacagcgag cggggccgga tggagccgct gacggagtgg
+      241 ataaaggatt cagctgaccc aggatattgg gataggaaca cccagaatgc tgtggggagc
+      301 cagcacgtga ctgccaggaa cctggagata ctgcgggagc ggtacaacca gagtgggggt
+      361 ctccacacag ttttgcgagt ttctggctgt gagctcctgt ccgatgggag cgtccgtggt
+      421 tctgaacggc acggctacga cgggcgggat ttcatctcct ttgacctgga atccgggaga
+      481 ttcgtggcgg ccgacagcgc tgctgagatc accaggaggc actgggaaca tgaagggatc
+      541 gtggctgaga ggaagacgaa ttacctgaag cacgagtgcc cggaatggct ccagagacac
+      601 gtcagatatg ggcagaagga gctggagcac aaagagcccc ttgatgtcca tgtgtccgga
+      661 aaagaggaac acgggacgct gatcttgtcc tgccacgcgt acggattcta ccccaagacc
+      721 atcgccgtca gctggatgaa gggggatgaa atctgggatc aggagacgga gtggggcggg
+      781 gtcgttccca acagcgacgg caccttccac acctgggcca ggatcgaggc gctgccggag
+      841 gagcgggagc agtaccggtg ccgggtggag catcccggaa tgccggagcc cgggatcttt
+      901 gcttgggagc cgacatctgg caggaatctc accgtggtgg tcgctgtgtc cgtcatcgct
+      961 gccatcctca tcctcactgc cctcactgga ttcatcctct ggaagcgcca atccgggagg
+     1021 aggggcaggg atggatacaa catggcagcc ggaagggaca tgggaaccaa gggctcgact
+     1081 gcaggaatca ctgcctgagc gatccacgga gctggatcca gccccttcct cttcctggac
+     1141 catattgcca caaggcatgt gtaacagcgc aactatacac caaagggtag ttgaccttgc
+     1201 tctgcagcct gttcatcata aatttccagt tgtaaccata tatcattata tggatgatat
+     1261 tttacttgca gctcaccgtc aatccatttt accttctgtt caggtagccg tcatgcaggc
+     1321 aattcaaaat gcaggactca ttgtggctcc tgaaaaggtg cagcgtgagt ccccgtggca
+     1381 ttatctggga tggagaatta ctcaagagac cctcagccct cagcctttaa ggctttgtgt
+     1441 taaaggcagc ctaacttgaa atgaattaca gaagctgctg ggttccttga attggttgtg
+     1501 tcctgtacac tcttactttt ctgtcccaga tattgttttc taaccaacag gctgcatatc
+     1561 ttatctcttc ttcatcctgt gattccctta agctaatatg cgtatttaat gctccttcag
+     1621 gtatacattc tttcaaccag atctccatac tatatctgat catctttacc ttgtctaaat
+     1681 ttcttaaatt gctatatttt ccccaatttt caagcatttc ccccaaagga cttgttggag
+     1741 gaatatcctt tatttccttt actttcttta ctttctttga actcttgctc gcacactgtc
+     1801 ccactttgct tctaatctga aatcttttct attggtttct ttgactattt tactaatttc
+     1861 acaaacaaca aagtactcta aaataagaat tttaacttaa tttatcaata attaataata
+     1921 atttaagtct gtattcttta gaacttagag tgtcaactca agtaaacaat tatgagaatt
+     1981 taaaagtgca atatcaatac ttcaactatt aggattaaac catccacaag aacaagaggt
+     2041 tgatttatct aattaaactt tttagaactg atacttctaa tcttataaac taacaatgaa
+     2101 aatattaaag aaaatggctg cctgtatttt aaattgttaa gaactacaat ggttatctgt
+     2161 ataaacaaat gatgggaaac taagatggcc acctatataa ataaattgtg ggaat
+//
+LOCUS       AAA005510               1930 bp    mRNA    linear   VRT 15-APR-2005
+DEFINITION  Acrocephalus arundinaceus mRNA for MHC class I chain (clone cN10),
+            partial.
+ACCESSION   AJ005510
+VERSION     AJ005510.1  GI:4185824
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1  (bases 1 to 1930)
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 1930)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..1930
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39621"
+                     /clone="cN10"
+                     /tissue_type="liver"
+     CDS             <1..822
+                     /codon_start=1
+                     /product="MHC class I antigen"
+                     /protein_id="CAA06567.1"
+                     /db_xref="GI:4185825"
+                     /db_xref="GOA:O98194"
+                     /db_xref="InterPro:IPR001039"
+                     /db_xref="InterPro:IPR003006"
+                     /db_xref="InterPro:IPR003597"
+                     /db_xref="InterPro:IPR007110"
+                     /db_xref="UniProtKB/TrEMBL:O98194"
+                     /translation="NTQISVGNRHVNARNLEVVMERYNLSRGLHTWLRVIGCELLSDG
+                     SVRGSYRFGYDGRDFISFELGSGRFVPADSAAEITRRRWEHDGTVAESLTNYLKHECP
+                     EWLQKYVGYGQKELERKEPPDVHVSGKEEHGTLILSCHAYGFYPNTIAVTWMKGDEIW
+                     DQETEWGGVVPNSDGTFHTWARIEALPEEWEQYRCRVEHPGMPEPRIFTWEPTSGGNL
+                     TVVVAVSVITAILILILTGFILWKLQSGRRGRDGYNMAAGTDVKTKDSTAAGITA"
+     3'UTR           823..1930
+ORIGIN      
+        1 aacacccaga tcagtgtggg gaacaggcac gtgaatgcca ggaacctgga ggtagtgatg
+       61 gagcggtaca acctgagcag gggtctccac acatggttgc gagttatcgg ctgtgagctc
+      121 ctgtccgacg ggagcgtccg tggatcctac cggtttggct acgacgggcg ggatttcatc
+      181 tcctttgagc tgggatccgg gagatttgtg ccggccgaca gcgctgctga gatcaccagg
+      241 aggcgctggg aacatgatgg gaccgtggct gagagtttga caaattacct gaagcacgag
+      301 tgcccggagt ggctccagaa atacgtcgga tacgggcaga aggagctgga gcgcaaagag
+      361 ccccctgatg tccatgtgtc tggaaaagag gaacacggga cgctgatctt gtcctgccac
+      421 gcgtacggat tctaccccaa caccatcgcc gtcacctgga tgaaggggga tgaaatctgg
+      481 gatcaggaga cggagtgggg cggggtcgtt cccaacagcg acggcacctt ccacacctgg
+      541 gccaggatcg aggcgctgcc ggaggagtgg gagcagtacc ggtgccgggt ggagcatccc
+      601 ggaatgccgg agcccagaat cttcacttgg gagccgacat ctggcgggaa tctcaccgtg
+      661 gtggtcgctg tgtccgtcat cactgccatc ctcatcctca tcctcactgg attcattctc
+      721 tggaagctcc aatccgggag gaggggcagg gatggataca acatggcagc cggaacagat
+      781 gtgaaaacga aggactcgac tgcagcagga atcactgcct gagcgatcga cggagctgga
+      841 tccagcccct tcctcttcct ggaccatatt gccacaaggc atgtgtaaca gcccaactat
+      901 acaccaaagg gtagttgacc ttgctctgca gcctgttcat cataaatttc cagttgtaac
+      961 catatatcat tatatggatg atattttact tgcagctcac cgtcaatcca ttttaccttc
+     1021 tgttcaggta gccgtcatgc aggcaattca aaatgcagga ctcattgtgg ctcctgaaaa
+     1081 ggtgcagcgt gagtccccgt ggcattatct gggatggaga attgctcaag agaccatcag
+     1141 ccctcagcct ttaaggcttt gtgttaaaga cagcctaact tgaaatgaat tacagaagct
+     1201 gctgggttcc ttgaattggt tgtgtcctgt acactcttac ttttctgtcc cagatattgt
+     1261 tttctaacca acatgctgca catcttatct cttcttcatc ctgtgattct cttaagctaa
+     1321 tatgcgtatt taatgctcct tcaggtatac attctttcaa ccagatctcc atactatatc
+     1381 tgatcatctt taccttgtct aaatttctta aattgctatc ttttccccaa ttttcaagca
+     1441 tttcccccaa aggacttgtt ggaggaatag cctttatttc ctttactttc tttgaactct
+     1501 tgctcgcaca ctgtcccatt ttgcttctaa tctgaaatct tttctattgg tttctttgac
+     1561 tattttacta atttcacaaa caacaaagta ctctaaaata agaattttaa cttaatttat
+     1621 caataattaa taataattta agtctgtatt ctttagaact tagagtgtca actcaagtaa
+     1681 acaattatga gaatttaaaa gtgcaatatc aatacttcaa ctattaggat taaaccatcc
+     1741 acaagaacaa gaggttgatt tatctaatta aactttttag aactgatact tctaatctta
+     1801 taaactaaca atgaaaatat taaagaaaat ggctgcctgt attttaaatt gttaagaact
+     1861 agaatggtta tctgtttaaa caaattatgg gaaactaaga tggctgccta tataaataaa
+     1921 ttgtgggaat
+//
+LOCUS       AAA005511                204 bp    DNA     linear   VRT 22-JAN-1999
+DEFINITION  Acrocephalus arundinaceus MHC class I gene exon 3(sequence n10),
+            partial.
+ACCESSION   AJ005511
+VERSION     AJ005511.1  GI:4185826
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1  (bases 1 to 204)
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 204)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..204
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39621"
+     exon            <1..>204
+                     /product="MHC class I antigen"
+                     /note="Probable pseudogene due to a 10 bp deletion
+                     following position 104 which leads to a shift in the
+                     reading frame"
+                     /number=3
+ORIGIN      
+        1 gctcctgtct gacaggagca tccgtggatc ctcacagttc agctacgatg ggtgggattt
+       61 catctccttt gacctggaat ccaggagatt cgtggccgcc gacagatcac caggaggcgc
+      121 tgggaacatg acaggaccgt ggctgagtat cggacgaatt acctgaagca catctgcccg
+      181 gaatcactcc agaaatacgt tgga
+//
+LOCUS       AAA005512                214 bp    DNA     linear   VRT 22-JAN-1999
+DEFINITION  Acrocephalus arundinaceus MHC class I gene exon 3(sequence g18),
+            partial.
+ACCESSION   AJ005512
+VERSION     AJ005512.1  GI:4185827
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1  (bases 1 to 214)
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 214)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..214
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39621"
+     CDS             <1..>214
+                     /codon_start=2
+                     /product="MHC class I antigen"
+                     /protein_id="CAA06568.1"
+                     /db_xref="GI:4185828"
+                     /db_xref="GOA:O98195"
+                     /db_xref="UniProtKB/TrEMBL:O98195"
+                     /translation="LLSDRSVRGTYRNGYDGRDFISFELESRRFVAADSAAEITRRRW
+                     EHEGTVAEGLTNYLKHECPERLQKYVR"
+     exon            <1..>214
+                     /number=3
+ORIGIN      
+        1 cctcctgtcc gacaggagcg tccgtggaac ctaccggaat ggctacgacg gccgggattt
+       61 catctccttc gagctggaat ccaggagatt cgtggcggcc gacagcgctg ctgagatcac
+      121 caggaggcgc tgggaacatg aagggaccgt ggctgagggt ttgacgaatt acctgaagca
+      181 cgagtgccca gaacggctcc agaaatatgt caga
+//
+LOCUS       AAA005513                214 bp    DNA     linear   VRT 22-JAN-1999
+DEFINITION  Acrocephalus arundinaceus MHC class I gene exon 3(sequence g9),
+            partial.
+ACCESSION   AJ005513
+VERSION     AJ005513.1  GI:4185829
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1  (bases 1 to 214)
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 214)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..214
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39621"
+     CDS             <1..>214
+                     /codon_start=2
+                     /product="MHC class I antigen"
+                     /protein_id="CAA06569.1"
+                     /db_xref="GI:4185830"
+                     /db_xref="GOA:O98196"
+                     /db_xref="UniProtKB/TrEMBL:O98196"
+                     /translation="LLSDGSIHGYIWGGCGRRDFLSFDLGSRRFMAANSAAEITRRCW
+                     EHEGIEAERQTNYLKHVCPEWLQKYIG"
+     exon            <1..>214
+                     /number=3
+ORIGIN      
+        1 cctcctgtcc gatgggagca tccatggata catctggggt ggctgcggca ggcgggattt
+       61 cctctccttt gacctgggat ccaggagatt catggcggcc aacagtgctg ctgagatcac
+      121 caggaggtgc tgggaacacg aagggatcga ggctgagagg cagacaaatt acctgaagca
+      181 cgtctgccca gaatggctcc agaagtacat tgga
+//
+LOCUS       AAA005514                214 bp    DNA     linear   VRT 22-JAN-1999
+DEFINITION  Acrocephalus arundinaceus MHC class I gene exon 3(sequence g20),
+            partial.
+ACCESSION   AJ005514
+VERSION     AJ005514.1  GI:4185831
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1  (bases 1 to 214)
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 214)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..214
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39621"
+     CDS             <1..>214
+                     /codon_start=2
+                     /product="MHC class I antigen"
+                     /protein_id="CAA06570.1"
+                     /db_xref="GI:4185832"
+                     /db_xref="GOA:O98197"
+                     /db_xref="UniProtKB/TrEMBL:O98197"
+                     /translation="LLSDGSIRGSDRFGYDGWDFISFELGSGRFMAADSTAEITRRLW
+                     EQEGIMAEHWTNYLKHECPELLQKYVG"
+     exon            <1..>214
+                     /number=3
+ORIGIN      
+        1 cctcctgtct gacgggagca tccgtggttc tgatcggttt ggctatgacg ggtgggattt
+       61 catctccttt gagctggggt ccgggagatt catggcagct gacagcactg ctgagatcac
+      121 caggaggctg tgggagcagg aagggatcat ggctgagcac tggacaaatt accttaagca
+      181 cgagtgcccg gaattgctcc agaaatacgt tgga
+//
+LOCUS       AAA005515                214 bp    DNA     linear   VRT 22-JAN-1999
+DEFINITION  Acrocephalus arundinaceus MHC class I gene exon 3(sequence g12),
+            partial.
+ACCESSION   AJ005515
+VERSION     AJ005515.1  GI:4185833
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1  (bases 1 to 214)
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 214)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..214
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39621"
+     CDS             <1..>214
+                     /codon_start=2
+                     /product="MHC class I antigen"
+                     /protein_id="CAA06571.1"
+                     /db_xref="GI:4185834"
+                     /db_xref="GOA:O98198"
+                     /db_xref="UniProtKB/TrEMBL:O98198"
+                     /translation="LLSDGSVRGSFRDGYDGRDFISFDLESGRFVVADSAAEITRRRW
+                     EHDGTVAESLMNYLKHECPEWLQRHVR"
+     exon            <1..>214
+                     /number=3
+ORIGIN      
+        1 gctcctgtcc gacgggagcg tccgtggatc cttccgggat ggctacgacg ggcgggattt
+       61 catctccttc gacctggaat ccgggagatt tgtggtggcc gacagcgctg ctgagatcac
+      121 caggaggcgc tgggaacatg atgggaccgt ggctgagagt ttgatgaatt acctgaagca
+      181 cgagtgcccg gaatggctcc agagacacgt caga
+//
+LOCUS       AAA005516                214 bp    DNA     linear   VRT 22-JAN-1999
+DEFINITION  Acrocephalus arundinaceus MHC class I gene exon 3(sequence g22),
+            partial.
+ACCESSION   AJ005516
+VERSION     AJ005516.1  GI:4185835
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1  (bases 1 to 214)
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 214)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..214
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39621"
+     CDS             <1..>214
+                     /codon_start=2
+                     /product="MHC class I antigen"
+                     /protein_id="CAA06572.1"
+                     /db_xref="GI:4185836"
+                     /db_xref="GOA:O98199"
+                     /db_xref="UniProtKB/TrEMBL:O98199"
+                     /translation="LLSDGSIRGSDRFGYDGWDFISFELGSGRFVAADSAAEITRRLW
+                     EQEGIMAEHWTNYLKYECPELLQKYVG"
+     exon            <1..>214
+                     /number=3
+ORIGIN      
+        1 cctcctgtct gacgggagca tccgtggttc tgatcggttt ggctatgacg ggtgggattt
+       61 catctccttc gagctgggat ccgggagatt cgtggcggcc gacagcgctg ctgagatcac
+      121 caggaggctg tgggagcagg aagggatcat ggctgagcat tggacaaatt accttaagta
+      181 cgagtgccca gaattgctcc agaaatacgt tgga
+//
+LOCUS       AAA005517                214 bp    DNA     linear   VRT 22-JAN-1999
+DEFINITION  Acrocephalus arundinaceus MHC class I gene exon 3(sequence g21),
+            partial.
+ACCESSION   AJ005517
+VERSION     AJ005517.1  GI:4185837
+KEYWORDS    antigen; major histocompatibility complex; MHC; MHC class I.
+SOURCE      Acrocephalus arundinaceus (great reed warbler)
+  ORGANISM  Acrocephalus arundinaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Acrocephalinae; Acrocephalus.
+REFERENCE   1  (bases 1 to 214)
+  AUTHORS   Westerdahl,H., Wittzell,H. and von Schantz,T.
+  TITLE     Polymorphism and transcription of Mhc class I genes in a passerine
+            bird, the great reed warbler
+  JOURNAL   Immunogenetics 49 (3), 158-170 (1999)
+   PUBMED   9914330
+REFERENCE   2  (bases 1 to 214)
+  AUTHORS   Westerdahl,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-1998) Westerdahl H., Department of Animal
+            Ecology, Lund University, Ecology Building, S-223 62 Lund, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..214
+                     /organism="Acrocephalus arundinaceus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39621"
+     CDS             <1..>214
+                     /codon_start=2
+                     /product="MHC class I antigen"
+                     /protein_id="CAA06573.1"
+                     /db_xref="GI:4185838"
+                     /db_xref="GOA:O98200"
+                     /db_xref="UniProtKB/TrEMBL:O98200"
+                     /translation="LLSDGSIRGTYRFGYDGRDFISFELGSGRFVAADSAAEIIRRRW
+                     EHEGTVAERQTNYLKHECPEWLQRHVR"
+     exon            <1..>214
+                     /number=3
+ORIGIN      
+        1 cctcctgtcc gacgggagca tccgtggaac ctaccggttt ggctacgacg ggcgggattt
+       61 catctccttc gagctgggat ccgggagatt tgtggcggcc gacagcgctg ctgagatcat
+      121 caggaggcgc tgggaacatg aagggaccgt ggctgagaga cagacgaatt acctgaagca
+      181 cgagtgcccg gaatggctcc agagacatgt caga
+//

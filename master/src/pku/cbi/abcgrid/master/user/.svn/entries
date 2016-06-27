@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="2"
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/master/trunk/src/pku/cbi/abcgrid/master/user"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   kind="dir"
+   name=""
+   committed-rev="1"/>
+<entry
+   revision="311"
+   checksum="37ac0d13e875ee4949495f2bec0309b2"
+   last-author="suny"
+   text-time="2007-01-15T19:14:44.000000Z"
+   committed-date="2007-01-15T21:32:54.590000Z"
+   kind="file"
+   name="FakeUser.java"
+   committed-rev="311"/>
+<entry
+   revision="326"
+   deleted="true"
+   kind="file"
+   name="Node.java"/>
+<entry
+   checksum="cd87cec16db584b6ae091965ac6522be"
+   revision="128"
+   last-author="suny"
+   text-time="2007-01-09T06:28:38.000000Z"
+   committed-date="2007-01-09T06:49:31.010000Z"
+   name="UserManager.java"
+   kind="file"
+   committed-rev="128"/>
+</wc-entries>

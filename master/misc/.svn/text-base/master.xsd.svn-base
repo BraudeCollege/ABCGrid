@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<!-- definition of elements -->
+
+<xsd:element name="port">
+	<xsd:complexType>
+    	<xsd:sequence> 
+        	<xsd:element name="worker" type="xsd:positiveInteger"/>           	
+        	<xsd:element name="user" type="xsd:positiveInteger"/>           	
+    	</xsd:sequence> 
+	</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="user">
+	<xsd:complexType>
+    	<xsd:sequence> 
+        	<xsd:element name="name" type="xsd:string"/>           	
+        	<xsd:element name="password" type="xsd:string"/>           	
+        	<xsd:element name="address" type="xsd:string"/>           	
+        	<xsd:element name="priority" type="xsd:positiveInteger"/>           	
+        	<xsd:element name="group" type="xsd:string"/>           	
+        	<xsd:element name="home" type="xsd:string"/>           	
+    	</xsd:sequence> 
+	</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="auth">
+	<xsd:complexType>
+    	<xsd:sequence> 
+			<xsd:element ref="user"/>
+    	</xsd:sequence> 
+	</xsd:complexType>
+</xsd:element>
+
+
+<xsd:element name="master">
+	<xsd:complexType>
+    	<xsd:sequence> 
+			<xsd:element ref="port"/>
+			<xsd:element ref="auth"/>
+    	</xsd:sequence> 
+	</xsd:complexType>
+</xsd:element>
+</xsd:schema>

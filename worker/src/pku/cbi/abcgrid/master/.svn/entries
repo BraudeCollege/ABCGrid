@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="91"
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/worker/trunk/src/pku/cbi/abcgrid/master"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-18T08:08:13.272327Z"
+   kind="dir"
+   name=""
+   committed-rev="21"/>
+<entry
+   revision="172"
+   checksum="a1490ec63b5edfc593f53cfd5f10666c"
+   last-author="suny"
+   text-time="2007-01-11T00:36:12.000000Z"
+   committed-date="2007-01-11T01:03:10.367000Z"
+   kind="file"
+   name="Master.java"
+   committed-rev="172"/>
+<entry
+   revision="129"
+   checksum="61245f867e9cc795995e00feeea70314"
+   last-author="suny"
+   text-time="2007-01-09T06:24:56.000000Z"
+   committed-date="2007-01-09T06:50:41.146000Z"
+   kind="file"
+   name="Task.java"
+   committed-rev="129"/>
+<entry
+   revision="129"
+   checksum="a75dbadd5c0e3310703c8b7b0904b3c2"
+   last-author="suny"
+   text-time="2007-01-09T06:25:08.000000Z"
+   committed-date="2007-01-09T06:50:41.146000Z"
+   kind="file"
+   name="TaskInput.java"
+   committed-rev="129"/>
+</wc-entries>

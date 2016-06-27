@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   revision="2"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/master/trunk/src/pku/cbi/abcgrid/master/fragment"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name=""
+   kind="dir"
+   committed-rev="1"/>
+<entry
+   checksum="d362427c2b608ee0a002a7bc7b0c1a49"
+   revision="247"
+   last-author="suny"
+   text-time="2007-01-13T16:33:26.000000Z"
+   committed-date="2007-01-13T17:02:48.867000Z"
+   name="BaseFragment.java"
+   kind="file"
+   committed-rev="247"/>
+<entry
+   checksum="dab08f9f67a4aaeb02ffed227c99a7c6"
+   revision="244"
+   last-author="suny"
+   text-time="2007-01-13T15:19:04.000000Z"
+   committed-date="2007-01-13T15:43:27.631000Z"
+   name="EMBL.java"
+   kind="file"
+   committed-rev="244"/>
+<entry
+   checksum="f92aae5d70dbf95f47391dd9d8f09338"
+   revision="244"
+   last-author="suny"
+   text-time="2007-01-13T15:17:16.000000Z"
+   committed-date="2007-01-13T15:43:27.631000Z"
+   name="FASTA.java"
+   kind="file"
+   committed-rev="244"/>
+<entry
+   checksum="856697dd3c6d0d919a38978517b1707a"
+   revision="128"
+   last-author="suny"
+   text-time="2007-01-09T05:57:04.000000Z"
+   committed-date="2007-01-09T06:49:31.010000Z"
+   name="FormatDetector.java"
+   kind="file"
+   committed-rev="128"/>
+<entry
+   checksum="3b7dd88b7cd9db642ac8d7a2a20e7480"
+   revision="244"
+   last-author="suny"
+   text-time="2007-01-13T15:15:58.000000Z"
+   committed-date="2007-01-13T15:43:27.631000Z"
+   name="Fragmentable.java"
+   kind="file"
+   committed-rev="244"/>
+<entry
+   checksum="28c6002bcaff8c63cf2ae27d759b4333"
+   revision="244"
+   last-author="suny"
+   text-time="2007-01-13T15:17:42.000000Z"
+   committed-date="2007-01-13T15:43:27.631000Z"
+   name="Genbank.java"
+   kind="file"
+   committed-rev="244"/>
+<entry
+   checksum="f70c7a06b74fc072f3d837edd7c1ce3b"
+   revision="244"
+   last-author="suny"
+   text-time="2007-01-13T15:18:20.000000Z"
+   committed-date="2007-01-13T15:43:27.631000Z"
+   name="PDB.java"
+   kind="file"
+   committed-rev="244"/>
+<entry
+   checksum="0a06a82eb8118d50bd1e4d86622d35dd"
+   revision="244"
+   last-author="suny"
+   text-time="2007-01-13T15:18:52.000000Z"
+   committed-date="2007-01-13T15:43:27.631000Z"
+   name="Pfam.java"
+   kind="file"
+   committed-rev="244"/>
+<entry
+   checksum="0f1787d7b4c4d1fd9780ae0434a84f58"
+   revision="244"
+   last-author="suny"
+   text-time="2007-01-13T15:18:40.000000Z"
+   committed-date="2007-01-13T15:43:27.631000Z"
+   name="SwissProt.java"
+   kind="file"
+   committed-rev="244"/>
+<entry
+   revision="41"
+   deleted="true"
+   name="Test.java"
+   kind="file"/>
+</wc-entries>

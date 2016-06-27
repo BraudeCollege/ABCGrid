@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   revision="2"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/master/trunk/src/pku/cbi/abcgrid/worker"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name=""
+   kind="dir"
+   committed-rev="1"/>
+<entry
+   checksum="dd3c7f98b19bbb170df7fe546e1052ef"
+   revision="128"
+   last-author="suny"
+   text-time="2007-01-09T06:29:00.000000Z"
+   committed-date="2007-01-09T06:49:31.010000Z"
+   name="Worker.java"
+   kind="file"
+   committed-rev="128"/>
+</wc-entries>

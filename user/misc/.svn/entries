@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="svn://ala.cbi.pku.edu.cn/abcuser"
+   revision="1"
+   url="svn://ala.cbi.pku.edu.cn/abcuser/trunk/misc"
+   last-author="suny"
+   uuid="3d57b17c-d425-0410-abaf-acd6a93fe988"
+   committed-date="2006-12-30T16:08:13.966129Z"
+   name=""
+   kind="dir"
+   committed-rev="1"/>
+<entry
+   checksum="029723e3e3b60a563b00ccac253cc8f7"
+   revision="12"
+   last-author="suny"
+   text-time="2007-01-02T12:50:46.000000Z"
+   committed-date="2007-01-02T13:09:59.275000Z"
+   name="user.conf"
+   kind="file"
+   committed-rev="12"/>
+<entry
+   checksum="ead89df188e175555489f8c870f847f3"
+   last-author="suny"
+   text-time="2006-12-30T16:08:14.000000Z"
+   committed-date="2006-12-30T16:08:13.966129Z"
+   name="user.manifest"
+   kind="file"
+   committed-rev="1"/>
+</wc-entries>

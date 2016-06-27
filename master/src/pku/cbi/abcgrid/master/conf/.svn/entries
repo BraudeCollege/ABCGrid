@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   revision="2"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/master/trunk/src/pku/cbi/abcgrid/master/conf"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-13T15:59:13.439199Z"
+   name=""
+   kind="dir"
+   committed-rev="1"/>
+<entry
+   revision="54"
+   deleted="true"
+   name="Address.java"
+   kind="file"/>
+<entry
+   revision="78"
+   deleted="true"
+   kind="file"
+   name="Authen.java"/>
+<entry
+   checksum="842f8f7e37fc7946971cd28fa7ad8b4d"
+   revision="135"
+   last-author="suny"
+   text-time="2007-01-09T10:40:12.000000Z"
+   committed-date="2007-01-09T11:00:10.661000Z"
+   name="Config.java"
+   kind="file"
+   committed-rev="135"/>
+<entry
+   revision="128"
+   checksum="1a62e80275e60755052803dd68e67f4d"
+   last-author="suny"
+   text-time="2007-01-09T05:57:38.000000Z"
+   committed-date="2007-01-09T06:49:31.010000Z"
+   kind="file"
+   name="Entry.java"
+   committed-rev="128"/>
+<entry
+   revision="54"
+   deleted="true"
+   name="MasterEntry.java"
+   kind="file"/>
+<entry
+   revision="128"
+   checksum="f59e3212def4073f94f7c863602c9cf6"
+   last-author="suny"
+   text-time="2007-01-09T05:57:38.000000Z"
+   committed-date="2007-01-09T06:49:31.010000Z"
+   name="Port.java"
+   kind="file"
+   committed-rev="128"/>
+<entry
+   revision="60"
+   deleted="true"
+   name="PortEntry.java"
+   kind="file"/>
+<entry
+   revision="54"
+   deleted="true"
+   name="TaskSize.java"
+   kind="file"/>
+<entry
+   revision="128"
+   checksum="46dc1d57f8e595bf216fb659b538fd3b"
+   last-author="suny"
+   text-time="2007-01-09T05:57:38.000000Z"
+   committed-date="2007-01-09T06:49:31.010000Z"
+   kind="file"
+   name="User.java"
+   committed-rev="128"/>
+</wc-entries>

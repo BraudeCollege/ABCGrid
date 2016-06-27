@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="user" default="all" basedir=".">
+
+    <!-- set global properties for this build -->
+    <property name="src.dir" value="${basedir}/src"/>
+    <property name="lib.dir" value="${basedir}/lib"/>
+    <property name="misc.dir" value="${basedir}/misc"/>
+
+    
+    <property name="build.dir" value="${basedir}/dist"/>
+    <property name="build.bin.dir" value="${build.dir}/bin"/>
+    <property name="build.conf.dir" value="${build.dir}/conf"/>
+    <property name="build.classes.dir"     value="${build.dir}/classes"/>
+    <property name="main-class"  value="pku.cbi.abcgrid.user.UserMain"/>
+    <property name="version" value="0.1"/>
+
+
+    <!--define classpath-->
+    <path id="classpath">
+        <!--<pathelement path="${java.class.path}"/>-->
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+        <!--<pathelement location="${basedir}/${classes}"/>-->
+    </path>
+
+
+    <target name="init">
+        <!-- Create the time stamp -->
+        <tstamp/>
+        <mkdir dir="${build.dir}/"/>
+        <mkdir dir="${build.bin.dir}/"/>
+        <mkdir dir="${build.conf.dir}/"/>
+        <mkdir dir="${build.classes.dir}/"/>
+    </target>
+
+    <target name="copy" depends="init">
+
+    	<copy file="${basedir}/README"
+            tofile="${build.dir}/README"/>
+
+        <copy file="${basedir}/INSTALL"
+            tofile="${build.dir}/INSTALL"/>
+
+    	<copy file="${misc.dir}/user.conf"
+            tofile="${build.conf.dir}/user.conf"/>
+
+        <copy toDir="${build.bin.dir}/">
+            <fileset dir="${lib.dir}">
+                <include name="*.jar"/>
+            </fileset>
+        </copy>
+
+    </target>
+
+
+
+    <target name="compile" depends="copy">
+        <javac
+                srcdir="${src.dir}"
+                destdir="${build.classes.dir}"
+                classpathref="classpath"
+                source="1.5"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <jar destfile="${build.bin.dir}/${ant.project.name}.jar"
+             basedir="${build.classes.dir}"
+             manifest="${misc.dir}/user.manifest"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.classes.dir}" includeEmptyDirs="true"/>
+    </target>
+
+    <target name="all" depends="init,compile,jar,clean"/>
+</project>

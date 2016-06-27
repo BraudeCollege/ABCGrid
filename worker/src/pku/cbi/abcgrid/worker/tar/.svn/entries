@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="91"
+   repos="svn://ala.cbi.pku.edu.cn/abcgrid"
+   url="svn://ala.cbi.pku.edu.cn/abcgrid/worker/trunk/src/pku/cbi/abcgrid/worker/tar"
+   last-author="suny"
+   uuid="42a5df46-b31f-0410-af8c-f934eedb71b9"
+   committed-date="2006-10-13T15:59:31.691856Z"
+   kind="dir"
+   name=""
+   committed-rev="2"/>
+<entry
+   checksum="e705e113a2aa58930db5b0388ba29cc6"
+   last-author="suny"
+   text-time="2006-10-13T15:59:32.000000Z"
+   committed-date="2006-10-13T15:59:31.691856Z"
+   kind="file"
+   name="FastTarStream.java"
+   committed-rev="2"/>
+<entry
+   checksum="76006788d3e8062713ad369d7c14735a"
+   last-author="suny"
+   text-time="2006-10-13T15:59:32.000000Z"
+   committed-date="2006-10-13T15:59:31.691856Z"
+   kind="file"
+   name="InvalidHeaderException.java"
+   committed-rev="2"/>
+<entry
+   checksum="37f3223d21aad3e1821969ee1e73a1e1"
+   last-author="suny"
+   text-time="2006-10-13T15:59:32.000000Z"
+   committed-date="2006-10-13T15:59:31.691856Z"
+   kind="file"
+   name="Tar.java"
+   committed-rev="2"/>
+<entry
+   checksum="b5fa1788ac5bcf83c63178341b43c2cf"
+   last-author="suny"
+   text-time="2006-10-13T15:59:32.000000Z"
+   committed-date="2006-10-13T15:59:31.691856Z"
+   kind="file"
+   name="TarArchive.java"
+   committed-rev="2"/>
+<entry
+   checksum="55f7217c221fb4bd2433382513620bb2"
+   last-author="suny"
+   text-time="2006-10-13T15:59:32.000000Z"
+   committed-date="2006-10-13T15:59:31.691856Z"
+   kind="file"
+   name="TarBuffer.java"
+   committed-rev="2"/>
+<entry
+   checksum="0e7993bf0e42fc747d6a96e2c53ea502"
+   last-author="suny"
+   text-time="2006-10-13T15:59:32.000000Z"
+   committed-date="2006-10-13T15:59:31.691856Z"
+   kind="file"
+   name="TarEntry.java"
+   committed-rev="2"/>
+<entry
+   checksum="c1e594a70e6d22e22ebf74d8108d5fa2"
+   last-author="suny"
+   text-time="2006-10-13T15:59:32.000000Z"
+   committed-date="2006-10-13T15:59:31.691856Z"
+   kind="file"
+   name="TarEntryEnumerator.java"
+   committed-rev="2"/>
+<entry
+   checksum="148d522f2951b739c4627bd6410d77b1"
+   last-author="suny"
+   text-time="2006-10-13T15:59:32.000000Z"
+   committed-date="2006-10-13T15:59:31.691856Z"
+   kind="file"
+   name="TarGzOutputStream.java"
+   committed-rev="2"/>
+<entry
+   checksum="7249153826924aea9210a38bc5eecf58"
+   last-author="suny"
+   text-time="2006-10-13T15:59:32.000000Z"
+   committed-date="2006-10-13T15:59:31.691856Z"
+   kind="file"
+   name="TarHeader.java"
+   committed-rev="2"/>
+<entry
+   checksum="87d241a9191309203f8efe67f323323d"
+   last-author="suny"
+   text-time="2006-10-13T15:59:32.000000Z"
+   committed-date="2006-10-13T15:59:31.691856Z"
+   kind="file"
+   name="TarInputStream.java"
+   committed-rev="2"/>
+<entry
+   checksum="43003f37dcfc98a8379223978ce0688e"
+   last-author="suny"
+   text-time="2006-10-13T15:59:32.000000Z"
+   committed-date="2006-10-13T15:59:31.691856Z"
+   kind="file"
+   name="TarOutputStream.java"
+   committed-rev="2"/>
+<entry
+   checksum="bc5db3f9136621f58f86f2d5644c9978"
+   last-author="suny"
+   text-time="2006-10-13T15:59:32.000000Z"
+   committed-date="2006-10-13T15:59:31.691856Z"
+   kind="file"
+   name="TarProgressDisplay.java"
+   committed-rev="2"/>
+<entry
+   checksum="8ac85daec6f77fdd5205383f5cc82575"
+   last-author="suny"
+   text-time="2006-10-13T15:59:32.000000Z"
+   committed-date="2006-10-13T15:59:31.691856Z"
+   kind="file"
+   name="TarTransFileTyper.java"
+   committed-rev="2"/>
+</wc-entries>
